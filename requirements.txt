@@ -1,0 +1,12 @@
+--index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+numpy==2.1.2
+pandas==2.2.3
+kagglehub==0.3.12
+opencv-python-headless==4.11.0.86
+matplotlib==3.10.3
+albumentations==2.0.8
+tensorboard==2.19.0
+dvc==3.60.0

@@ -1,0 +1,244 @@
+2025-06-08 19:32:43,125 - INFO - Using device: cuda
+2025-06-08 19:32:43,125 - INFO - Initializing model with 2 classes on cuda
+2025-06-08 19:32:43,591 - INFO - Model Architecture Intialized...
+2025-06-08 19:32:43,591 - INFO - Model successfully moved to device
+2025-06-08 19:32:43,593 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-08 19:32:43,593 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-08 19:32:43,593 - INFO - Successfully initialized dataset with 333 images
+2025-06-08 19:32:43,593 - INFO - Total dataset size: 333
+2025-06-08 19:32:43,593 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-08 19:32:43,593 - INFO - Dataset split successfully
+2025-06-08 19:32:43,593 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-08 19:36:30,251 - INFO - Epoch 1 - Avg Training Loss: 0.2526
+2025-06-08 19:36:48,327 - INFO - Epoch 1 - Avg Validation Loss: 0.2050
+2025-06-08 19:36:48,717 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch1.pth
+2025-06-08 19:36:48,717 - INFO - Epoch 1 completed in 245.12 seconds
+
+2025-06-08 19:36:48,717 - INFO - 
+===== Starting Epoch 2/10 =====
+2025-06-08 19:40:36,384 - INFO - Epoch 2 - Avg Training Loss: 0.1974
+2025-06-08 19:40:54,485 - INFO - Epoch 2 - Avg Validation Loss: 0.1902
+2025-06-08 19:40:54,858 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch2.pth
+2025-06-08 19:40:54,858 - INFO - Epoch 2 completed in 246.14 seconds
+
+2025-06-08 19:40:54,858 - INFO - 
+===== Starting Epoch 3/10 =====
+2025-06-08 19:44:48,085 - INFO - Epoch 3 - Avg Training Loss: 0.1552
+2025-06-08 19:45:06,360 - INFO - Epoch 3 - Avg Validation Loss: 0.1606
+2025-06-08 19:45:06,746 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch3.pth
+2025-06-08 19:45:06,746 - INFO - Epoch 3 completed in 251.89 seconds
+
+2025-06-08 19:45:06,746 - INFO - 
+===== Starting Epoch 4/10 =====
+2025-06-08 19:49:04,081 - INFO - Epoch 4 - Avg Training Loss: 0.1397
+2025-06-08 19:49:22,358 - INFO - Epoch 4 - Avg Validation Loss: 0.1525
+2025-06-08 19:49:22,785 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch4.pth
+2025-06-08 19:49:22,785 - INFO - Epoch 4 completed in 256.04 seconds
+
+2025-06-08 19:49:22,785 - INFO - 
+===== Starting Epoch 5/10 =====
+2025-06-08 19:53:19,116 - INFO - Epoch 5 - Avg Training Loss: 0.1267
+2025-06-08 19:53:37,124 - INFO - Epoch 5 - Avg Validation Loss: 0.1371
+2025-06-08 19:53:37,482 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch5.pth
+2025-06-08 19:53:37,482 - INFO - Epoch 5 completed in 254.70 seconds
+
+2025-06-08 19:53:37,482 - INFO - 
+===== Starting Epoch 6/10 =====
+2025-06-08 19:57:25,273 - INFO - Epoch 6 - Avg Training Loss: 0.1053
+2025-06-08 19:57:43,607 - INFO - Epoch 6 - Avg Validation Loss: 0.1473
+2025-06-08 19:57:43,972 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch6.pth
+2025-06-08 19:57:43,972 - INFO - Epoch 6 completed in 246.49 seconds
+
+2025-06-08 19:57:43,972 - INFO - 
+===== Starting Epoch 7/10 =====
+2025-06-08 20:01:41,169 - INFO - Epoch 7 - Avg Training Loss: 0.0967
+2025-06-08 20:02:00,558 - INFO - Epoch 7 - Avg Validation Loss: 0.1552
+2025-06-08 20:02:00,951 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch7.pth
+2025-06-08 20:02:00,951 - INFO - Epoch 7 completed in 256.98 seconds
+
+2025-06-08 20:02:00,951 - INFO - 
+===== Starting Epoch 8/10 =====
+2025-06-08 20:05:53,841 - INFO - Epoch 8 - Avg Training Loss: 0.0955
+2025-06-08 20:06:12,149 - INFO - Epoch 8 - Avg Validation Loss: 0.1705
+2025-06-08 20:06:12,570 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch8.pth
+2025-06-08 20:06:12,570 - INFO - Epoch 8 completed in 251.62 seconds
+
+2025-06-08 20:06:12,570 - INFO - 
+===== Starting Epoch 9/10 =====
+2025-06-08 20:10:08,517 - INFO - Epoch 9 - Avg Training Loss: 0.0923
+2025-06-08 20:10:26,238 - INFO - Epoch 9 - Avg Validation Loss: 0.1690
+2025-06-08 20:10:26,587 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch9.pth
+2025-06-08 20:10:26,587 - INFO - Epoch 9 completed in 254.02 seconds
+
+2025-06-08 20:10:26,587 - INFO - 
+===== Starting Epoch 10/10 =====
+2025-06-08 20:14:10,860 - INFO - Epoch 10 - Avg Training Loss: 0.0778
+2025-06-08 20:14:28,778 - INFO - Epoch 10 - Avg Validation Loss: 0.1775
+2025-06-08 20:14:29,253 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch10.pth
+2025-06-08 20:14:29,253 - INFO - Epoch 10 completed in 242.67 seconds
+
+2025-06-08 20:58:35,924 - INFO - Using device: cuda
+2025-06-08 20:58:35,924 - INFO - Initializing model with 2 classes on cuda
+2025-06-08 20:58:36,379 - INFO - Model Architecture Intialized...
+2025-06-08 20:58:36,380 - INFO - Model successfully moved to device
+2025-06-08 20:58:36,380 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-08 20:58:36,380 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-08 20:58:36,381 - INFO - Successfully initialized dataset with 333 images
+2025-06-08 20:58:36,381 - INFO - Total dataset size: 333
+2025-06-08 20:58:36,381 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-08 20:58:36,381 - INFO - Dataset split successfully
+2025-06-08 20:58:36,381 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-08 21:00:53,215 - INFO - Epoch 1 - Avg Training Loss: 0.2378
+2025-06-08 21:01:15,162 - INFO - Epoch 1 - Avg Validation Loss: 0.2202
+2025-06-08 21:01:15,656 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch1.pth
+2025-06-08 21:01:15,660 - INFO - Epoch 1 completed in 159.28 seconds
+
+2025-06-08 21:01:15,660 - INFO - 
+===== Starting Epoch 2/10 =====
+2025-06-08 21:03:28,568 - INFO - Epoch 2 - Avg Training Loss: 0.1882
+2025-06-08 21:03:49,521 - INFO - Epoch 2 - Avg Validation Loss: 0.2191
+2025-06-08 21:03:49,912 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch2.pth
+2025-06-08 21:03:49,912 - INFO - Epoch 2 completed in 154.25 seconds
+
+2025-06-08 21:03:49,912 - INFO - 
+===== Starting Epoch 3/10 =====
+2025-06-08 21:06:12,429 - INFO - Epoch 3 - Avg Training Loss: 0.1475
+2025-06-08 21:06:33,331 - INFO - Epoch 3 - Avg Validation Loss: 0.1897
+2025-06-08 21:06:33,718 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch3.pth
+2025-06-08 21:06:33,718 - INFO - Epoch 3 completed in 163.81 seconds
+
+2025-06-08 21:06:33,718 - INFO - 
+===== Starting Epoch 4/10 =====
+2025-06-08 21:08:25,241 - INFO - Epoch 4 - Avg Training Loss: 0.1363
+2025-06-08 21:08:46,018 - INFO - Epoch 4 - Avg Validation Loss: 0.2060
+2025-06-08 21:08:46,376 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch4.pth
+2025-06-08 21:08:46,376 - INFO - Epoch 4 completed in 132.66 seconds
+
+2025-06-08 21:08:46,376 - INFO - 
+===== Starting Epoch 5/10 =====
+2025-06-08 21:10:47,445 - INFO - Epoch 5 - Avg Training Loss: 0.1094
+2025-06-08 21:11:08,016 - INFO - Epoch 5 - Avg Validation Loss: 0.1917
+2025-06-08 21:11:08,415 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch5.pth
+2025-06-08 21:11:08,415 - INFO - Epoch 5 completed in 142.04 seconds
+
+2025-06-08 21:11:08,415 - INFO - 
+===== Starting Epoch 6/10 =====
+2025-06-08 21:13:12,373 - INFO - Epoch 6 - Avg Training Loss: 0.0961
+2025-06-08 21:13:32,602 - INFO - Epoch 6 - Avg Validation Loss: 0.2287
+2025-06-08 21:13:32,979 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch6.pth
+2025-06-08 21:13:32,979 - INFO - Epoch 6 completed in 144.56 seconds
+
+2025-06-08 21:13:32,979 - INFO - 
+===== Starting Epoch 7/10 =====
+2025-06-08 21:15:38,454 - INFO - Epoch 7 - Avg Training Loss: 0.0795
+2025-06-08 21:15:58,699 - INFO - Epoch 7 - Avg Validation Loss: 0.2049
+2025-06-08 21:15:59,106 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch7.pth
+2025-06-08 21:15:59,106 - INFO - Epoch 7 completed in 146.13 seconds
+
+2025-06-08 21:15:59,106 - INFO - 
+===== Starting Epoch 8/10 =====
+2025-06-08 21:18:02,085 - INFO - Epoch 8 - Avg Training Loss: 0.0775
+2025-06-08 21:18:22,478 - INFO - Epoch 8 - Avg Validation Loss: 0.2162
+2025-06-08 21:18:22,846 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch8.pth
+2025-06-08 21:18:22,846 - INFO - Epoch 8 completed in 143.74 seconds
+
+2025-06-08 21:18:22,846 - INFO - 
+===== Starting Epoch 9/10 =====
+2025-06-08 21:20:24,042 - INFO - Epoch 9 - Avg Training Loss: 0.0688
+2025-06-08 21:20:44,531 - INFO - Epoch 9 - Avg Validation Loss: 0.2242
+2025-06-08 21:20:44,900 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch9.pth
+2025-06-08 21:20:44,900 - INFO - Epoch 9 completed in 142.05 seconds
+
+2025-06-08 21:20:44,900 - INFO - 
+===== Starting Epoch 10/10 =====
+2025-06-08 21:22:34,929 - INFO - Epoch 10 - Avg Training Loss: 0.0657
+2025-06-08 21:22:55,273 - INFO - Epoch 10 - Avg Validation Loss: 0.2213
+2025-06-08 21:22:55,743 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch10.pth
+2025-06-08 21:22:55,743 - INFO - Epoch 10 completed in 130.84 seconds
+
+2025-06-08 23:32:20,750 - INFO - Created The artifacts\raw
+2025-06-08 23:32:23,436 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-08 23:32:24,991 - INFO - Images Moved Successfully ..
+2025-06-08 23:32:26,578 - INFO - Labels Moved Successfully ..
+2025-06-08 23:32:31,663 - INFO - Using device: cuda
+2025-06-08 23:32:31,665 - INFO - Initializing model with 2 classes on cuda
+2025-06-08 23:32:32,120 - INFO - Model Architecture Intialized...
+2025-06-08 23:32:32,121 - INFO - Model successfully moved to device
+2025-06-08 23:32:32,121 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-08 23:32:32,121 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-08 23:32:32,121 - INFO - Successfully initialized dataset with 333 images
+2025-06-08 23:32:32,122 - INFO - Total dataset size: 333
+2025-06-08 23:32:32,122 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-08 23:32:32,122 - INFO - Dataset split successfully
+2025-06-08 23:32:32,122 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-08 23:36:08,478 - INFO - Epoch 1 - Avg Training Loss: 0.2505
+2025-06-08 23:36:23,938 - INFO - Epoch 1 - Avg Validation Loss: 0.2522
+2025-06-08 23:36:24,326 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch1.pth
+2025-06-08 23:36:24,326 - INFO - Epoch 1 completed in 232.20 seconds
+
+2025-06-08 23:36:24,326 - INFO - 
+===== Starting Epoch 2/10 =====
+2025-06-08 23:39:56,502 - INFO - Epoch 2 - Avg Training Loss: 0.1891
+2025-06-08 23:40:11,968 - INFO - Epoch 2 - Avg Validation Loss: 0.2174
+2025-06-08 23:40:12,308 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch2.pth
+2025-06-08 23:40:12,309 - INFO - Epoch 2 completed in 227.98 seconds
+
+2025-06-08 23:40:12,309 - INFO - 
+===== Starting Epoch 3/10 =====
+2025-06-08 23:43:23,970 - INFO - Epoch 3 - Avg Training Loss: 0.1494
+2025-06-08 23:43:39,948 - INFO - Epoch 3 - Avg Validation Loss: 0.2310
+2025-06-08 23:43:40,362 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch3.pth
+2025-06-08 23:43:40,362 - INFO - Epoch 3 completed in 208.05 seconds
+
+2025-06-08 23:43:40,362 - INFO - 
+===== Starting Epoch 4/10 =====
+2025-06-08 23:47:14,511 - INFO - Epoch 4 - Avg Training Loss: 0.1405
+2025-06-08 23:47:30,008 - INFO - Epoch 4 - Avg Validation Loss: 0.2152
+2025-06-08 23:47:30,344 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch4.pth
+2025-06-08 23:47:30,344 - INFO - Epoch 4 completed in 229.98 seconds
+
+2025-06-08 23:47:30,345 - INFO - 
+===== Starting Epoch 5/10 =====
+2025-06-08 23:51:05,588 - INFO - Epoch 5 - Avg Training Loss: 0.1126
+2025-06-08 23:51:20,979 - INFO - Epoch 5 - Avg Validation Loss: 0.2079
+2025-06-08 23:51:21,365 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch5.pth
+2025-06-08 23:51:21,365 - INFO - Epoch 5 completed in 231.02 seconds
+
+2025-06-08 23:51:21,365 - INFO - 
+===== Starting Epoch 6/10 =====
+2025-06-08 23:54:52,907 - INFO - Epoch 6 - Avg Training Loss: 0.1009
+2025-06-08 23:55:08,731 - INFO - Epoch 6 - Avg Validation Loss: 0.2125
+2025-06-08 23:55:09,085 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch6.pth
+2025-06-08 23:55:09,085 - INFO - Epoch 6 completed in 227.72 seconds
+
+2025-06-08 23:55:09,085 - INFO - 
+===== Starting Epoch 7/10 =====
+2025-06-08 23:58:52,379 - INFO - Epoch 7 - Avg Training Loss: 0.0877
+2025-06-08 23:59:07,783 - INFO - Epoch 7 - Avg Validation Loss: 0.2243
+2025-06-08 23:59:08,141 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch7.pth
+2025-06-08 23:59:08,141 - INFO - Epoch 7 completed in 239.06 seconds
+
+2025-06-08 23:59:08,142 - INFO - 
+===== Starting Epoch 8/10 =====
+2025-06-09 00:02:35,279 - INFO - Epoch 8 - Avg Training Loss: 0.0792
+2025-06-09 00:02:50,828 - INFO - Epoch 8 - Avg Validation Loss: 0.2120
+2025-06-09 00:02:51,204 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch8.pth
+2025-06-09 00:02:51,204 - INFO - Epoch 8 completed in 223.06 seconds
+
+2025-06-09 00:02:51,204 - INFO - 
+===== Starting Epoch 9/10 =====
+2025-06-09 00:06:09,760 - INFO - Epoch 9 - Avg Training Loss: 0.0774
+2025-06-09 00:06:24,128 - INFO - Epoch 9 - Avg Validation Loss: 0.2432
+2025-06-09 00:06:24,488 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch9.pth
+2025-06-09 00:06:24,488 - INFO - Epoch 9 completed in 213.28 seconds
+
+2025-06-09 00:06:24,488 - INFO - 
+===== Starting Epoch 10/10 =====
+2025-06-09 00:09:59,272 - INFO - Epoch 10 - Avg Training Loss: 0.0751
+2025-06-09 00:10:14,700 - INFO - Epoch 10 - Avg Validation Loss: 0.2429
+2025-06-09 00:10:15,094 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch10.pth
+2025-06-09 00:10:15,094 - INFO - Epoch 10 completed in 230.61 seconds
+

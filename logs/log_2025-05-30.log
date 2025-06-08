@@ -1,0 +1,15 @@
+2025-05-30 20:57:44,809 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-05-30 20:57:44,809 - INFO - Successfully initialized dataset with 333 images
+2025-05-30 20:57:44,809 - INFO - Processing item at index: 0
+2025-05-30 20:57:44,809 - DEBUG - Loading image from: artifacts/raw\Images\1.jpeg
+2025-05-30 20:57:44,811 - DEBUG - Loading label from: artifacts/raw\Labels\1.txt
+2025-05-30 20:57:44,886 - INFO - Successfully processed item 0
+2025-05-30 20:58:17,971 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-05-30 20:58:17,971 - INFO - Images folder does't exist
+2025-05-30 20:58:17,971 - INFO - Labels folder does't exist
+2025-05-30 20:58:53,209 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-05-30 20:58:53,209 - INFO - Successfully initialized dataset with 333 images
+2025-05-30 20:58:53,209 - INFO - Processing item at index: 0
+2025-05-30 20:58:53,209 - DEBUG - Loading image from: artifacts/raw\Images\1.jpeg
+2025-05-30 20:58:53,211 - DEBUG - Loading label from: artifacts/raw\Labels\1.txt
+2025-05-30 20:58:53,290 - INFO - Successfully processed item 0

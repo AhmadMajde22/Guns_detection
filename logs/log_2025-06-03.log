@@ -1,0 +1,1166 @@
+2025-06-03 03:38:07,547 - INFO - Using device: cuda
+2025-06-03 03:38:07,547 - INFO - Initializing model with 2 classes on cuda
+2025-06-03 03:38:08,151 - INFO - Model Architecture Intialized...
+2025-06-03 03:38:08,152 - INFO - Model successfully moved to device
+2025-06-03 03:38:08,152 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-03 03:38:08,152 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-03 03:38:08,153 - INFO - Successfully initialized dataset with 333 images
+2025-06-03 03:38:08,153 - INFO - Total dataset size: 333
+2025-06-03 03:38:08,153 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-03 03:38:08,153 - INFO - Dataset split successfully
+2025-06-03 03:38:08,153 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-03 03:38:08,157 - INFO - Processing item at index: 328
+2025-06-03 03:38:08,157 - DEBUG - Loading image from: artifacts/raw\Images\95.jpeg
+2025-06-03 03:38:08,158 - DEBUG - Loading label from: artifacts/raw\Labels\95.txt
+2025-06-03 03:38:08,159 - INFO - Successfully processed item 328
+2025-06-03 03:38:08,159 - INFO - Processing item at index: 102
+2025-06-03 03:38:08,159 - DEBUG - Loading image from: artifacts/raw\Images\191.jpeg
+2025-06-03 03:38:08,160 - DEBUG - Loading label from: artifacts/raw\Labels\191.txt
+2025-06-03 03:38:08,160 - INFO - Successfully processed item 102
+2025-06-03 03:38:08,160 - INFO - Processing item at index: 160
+2025-06-03 03:38:08,160 - DEBUG - Loading image from: artifacts/raw\Images\243.jpeg
+2025-06-03 03:38:08,161 - DEBUG - Loading label from: artifacts/raw\Labels\243.txt
+2025-06-03 03:38:08,161 - INFO - Successfully processed item 160
+2025-06-03 03:38:08,162 - INFO - Processing item at index: 231
+2025-06-03 03:38:08,162 - DEBUG - Loading image from: artifacts/raw\Images\307.jpeg
+2025-06-03 03:38:08,162 - DEBUG - Loading label from: artifacts/raw\Labels\307.txt
+2025-06-03 03:38:08,163 - INFO - Successfully processed item 231
+2025-06-03 03:38:09,467 - DEBUG - Step [1/67] - Loss: 0.5989
+2025-06-03 03:38:09,467 - INFO - Processing item at index: 103
+2025-06-03 03:38:09,467 - DEBUG - Loading image from: artifacts/raw\Images\192.jpeg
+2025-06-03 03:38:09,468 - DEBUG - Loading label from: artifacts/raw\Labels\192.txt
+2025-06-03 03:38:09,469 - INFO - Successfully processed item 103
+2025-06-03 03:38:09,469 - INFO - Processing item at index: 329
+2025-06-03 03:38:09,469 - DEBUG - Loading image from: artifacts/raw\Images\96.jpeg
+2025-06-03 03:38:09,469 - DEBUG - Loading label from: artifacts/raw\Labels\96.txt
+2025-06-03 03:38:09,470 - INFO - Successfully processed item 329
+2025-06-03 03:38:09,470 - INFO - Processing item at index: 310
+2025-06-03 03:38:09,470 - DEBUG - Loading image from: artifacts/raw\Images\79.jpeg
+2025-06-03 03:38:09,470 - DEBUG - Loading label from: artifacts/raw\Labels\79.txt
+2025-06-03 03:38:09,471 - INFO - Successfully processed item 310
+2025-06-03 03:38:09,471 - INFO - Processing item at index: 30
+2025-06-03 03:38:09,471 - DEBUG - Loading image from: artifacts/raw\Images\126.jpeg
+2025-06-03 03:38:09,471 - DEBUG - Loading label from: artifacts/raw\Labels\126.txt
+2025-06-03 03:38:09,472 - INFO - Successfully processed item 30
+2025-06-03 03:38:10,204 - DEBUG - Step [2/67] - Loss: 0.2368
+2025-06-03 03:38:10,204 - INFO - Processing item at index: 275
+2025-06-03 03:38:10,204 - DEBUG - Loading image from: artifacts/raw\Images\47.jpeg
+2025-06-03 03:38:10,205 - DEBUG - Loading label from: artifacts/raw\Labels\47.txt
+2025-06-03 03:38:10,206 - INFO - Successfully processed item 275
+2025-06-03 03:38:10,206 - INFO - Processing item at index: 179
+2025-06-03 03:38:10,206 - DEBUG - Loading image from: artifacts/raw\Images\260.jpeg
+2025-06-03 03:38:10,206 - DEBUG - Loading label from: artifacts/raw\Labels\260.txt
+2025-06-03 03:38:10,207 - INFO - Successfully processed item 179
+2025-06-03 03:38:10,207 - INFO - Processing item at index: 188
+2025-06-03 03:38:10,207 - DEBUG - Loading image from: artifacts/raw\Images\269.jpeg
+2025-06-03 03:38:10,207 - DEBUG - Loading label from: artifacts/raw\Labels\269.txt
+2025-06-03 03:38:10,208 - INFO - Successfully processed item 188
+2025-06-03 03:38:10,208 - INFO - Processing item at index: 154
+2025-06-03 03:38:10,208 - DEBUG - Loading image from: artifacts/raw\Images\238.jpeg
+2025-06-03 03:38:10,208 - DEBUG - Loading label from: artifacts/raw\Labels\238.txt
+2025-06-03 03:38:10,209 - INFO - Successfully processed item 154
+2025-06-03 03:38:10,934 - DEBUG - Step [3/67] - Loss: 0.4062
+2025-06-03 03:38:10,934 - INFO - Processing item at index: 220
+2025-06-03 03:38:10,934 - DEBUG - Loading image from: artifacts/raw\Images\298.jpeg
+2025-06-03 03:38:10,935 - DEBUG - Loading label from: artifacts/raw\Labels\298.txt
+2025-06-03 03:38:10,936 - INFO - Successfully processed item 220
+2025-06-03 03:38:10,936 - INFO - Processing item at index: 307
+2025-06-03 03:38:10,937 - DEBUG - Loading image from: artifacts/raw\Images\76.jpeg
+2025-06-03 03:38:10,937 - DEBUG - Loading label from: artifacts/raw\Labels\76.txt
+2025-06-03 03:38:10,938 - INFO - Successfully processed item 307
+2025-06-03 03:38:10,938 - INFO - Processing item at index: 78
+2025-06-03 03:38:10,938 - DEBUG - Loading image from: artifacts/raw\Images\17.jpeg
+2025-06-03 03:38:10,938 - DEBUG - Loading label from: artifacts/raw\Labels\17.txt
+2025-06-03 03:38:10,939 - INFO - Successfully processed item 78
+2025-06-03 03:38:10,939 - INFO - Processing item at index: 46
+2025-06-03 03:38:10,939 - DEBUG - Loading image from: artifacts/raw\Images\140.jpeg
+2025-06-03 03:38:10,939 - DEBUG - Loading label from: artifacts/raw\Labels\140.txt
+2025-06-03 03:38:10,940 - INFO - Successfully processed item 46
+2025-06-03 03:38:11,716 - DEBUG - Step [4/67] - Loss: 0.3104
+2025-06-03 03:38:11,717 - INFO - Processing item at index: 158
+2025-06-03 03:38:11,717 - DEBUG - Loading image from: artifacts/raw\Images\241.jpeg
+2025-06-03 03:38:11,717 - DEBUG - Loading label from: artifacts/raw\Labels\241.txt
+2025-06-03 03:38:11,718 - INFO - Successfully processed item 158
+2025-06-03 03:38:11,718 - INFO - Processing item at index: 332
+2025-06-03 03:38:11,718 - DEBUG - Loading image from: artifacts/raw\Images\99.jpeg
+2025-06-03 03:38:11,719 - DEBUG - Loading label from: artifacts/raw\Labels\99.txt
+2025-06-03 03:38:11,719 - INFO - Successfully processed item 332
+2025-06-03 03:38:11,719 - INFO - Processing item at index: 259
+2025-06-03 03:38:11,719 - DEBUG - Loading image from: artifacts/raw\Images\332.jpeg
+2025-06-03 03:38:11,720 - DEBUG - Loading label from: artifacts/raw\Labels\332.txt
+2025-06-03 03:38:11,720 - INFO - Successfully processed item 259
+2025-06-03 03:38:11,720 - INFO - Processing item at index: 266
+2025-06-03 03:38:11,720 - DEBUG - Loading image from: artifacts/raw\Images\39.jpeg
+2025-06-03 03:38:11,721 - DEBUG - Loading label from: artifacts/raw\Labels\39.txt
+2025-06-03 03:38:11,721 - INFO - Successfully processed item 266
+2025-06-03 03:38:13,674 - DEBUG - Step [5/67] - Loss: 0.5889
+2025-06-03 03:38:13,675 - INFO - Processing item at index: 151
+2025-06-03 03:38:13,675 - DEBUG - Loading image from: artifacts/raw\Images\235.jpeg
+2025-06-03 03:38:13,676 - DEBUG - Loading label from: artifacts/raw\Labels\235.txt
+2025-06-03 03:38:13,676 - INFO - Successfully processed item 151
+2025-06-03 03:38:13,676 - INFO - Processing item at index: 327
+2025-06-03 03:38:13,676 - DEBUG - Loading image from: artifacts/raw\Images\94.jpeg
+2025-06-03 03:38:13,677 - DEBUG - Loading label from: artifacts/raw\Labels\94.txt
+2025-06-03 03:38:13,677 - INFO - Successfully processed item 327
+2025-06-03 03:38:13,677 - INFO - Processing item at index: 47
+2025-06-03 03:38:13,677 - DEBUG - Loading image from: artifacts/raw\Images\141.jpeg
+2025-06-03 03:38:13,677 - DEBUG - Loading label from: artifacts/raw\Labels\141.txt
+2025-06-03 03:38:13,678 - INFO - Successfully processed item 47
+2025-06-03 03:38:13,678 - INFO - Processing item at index: 23
+2025-06-03 03:38:13,678 - DEBUG - Loading image from: artifacts/raw\Images\12.jpeg
+2025-06-03 03:38:13,678 - DEBUG - Loading label from: artifacts/raw\Labels\12.txt
+2025-06-03 03:38:13,679 - INFO - Successfully processed item 23
+2025-06-03 03:38:14,401 - DEBUG - Step [6/67] - Loss: 0.2232
+2025-06-03 03:38:14,401 - INFO - Processing item at index: 123
+2025-06-03 03:38:14,402 - DEBUG - Loading image from: artifacts/raw\Images\21.jpeg
+2025-06-03 03:38:14,402 - DEBUG - Loading label from: artifacts/raw\Labels\21.txt
+2025-06-03 03:38:14,403 - INFO - Successfully processed item 123
+2025-06-03 03:38:14,403 - INFO - Processing item at index: 305
+2025-06-03 03:38:14,403 - DEBUG - Loading image from: artifacts/raw\Images\74.jpeg
+2025-06-03 03:38:14,403 - DEBUG - Loading label from: artifacts/raw\Labels\74.txt
+2025-06-03 03:38:14,404 - INFO - Successfully processed item 305
+2025-06-03 03:38:14,404 - INFO - Processing item at index: 172
+2025-06-03 03:38:14,404 - DEBUG - Loading image from: artifacts/raw\Images\254.jpeg
+2025-06-03 03:38:14,404 - DEBUG - Loading label from: artifacts/raw\Labels\254.txt
+2025-06-03 03:38:14,405 - INFO - Successfully processed item 172
+2025-06-03 03:38:14,405 - INFO - Processing item at index: 71
+2025-06-03 03:38:14,405 - DEBUG - Loading image from: artifacts/raw\Images\163.jpeg
+2025-06-03 03:38:14,405 - DEBUG - Loading label from: artifacts/raw\Labels\163.txt
+2025-06-03 03:38:14,406 - INFO - Successfully processed item 71
+2025-06-03 03:38:15,133 - DEBUG - Step [7/67] - Loss: 0.3398
+2025-06-03 03:38:15,133 - INFO - Processing item at index: 57
+2025-06-03 03:38:15,134 - DEBUG - Loading image from: artifacts/raw\Images\150.jpeg
+2025-06-03 03:38:15,134 - DEBUG - Loading label from: artifacts/raw\Labels\150.txt
+2025-06-03 03:38:15,135 - INFO - Successfully processed item 57
+2025-06-03 03:38:15,135 - INFO - Processing item at index: 81
+2025-06-03 03:38:15,135 - DEBUG - Loading image from: artifacts/raw\Images\172.jpeg
+2025-06-03 03:38:15,135 - DEBUG - Loading label from: artifacts/raw\Labels\172.txt
+2025-06-03 03:38:15,136 - INFO - Successfully processed item 81
+2025-06-03 03:38:15,136 - INFO - Processing item at index: 54
+2025-06-03 03:38:15,136 - DEBUG - Loading image from: artifacts/raw\Images\148.jpeg
+2025-06-03 03:38:15,136 - DEBUG - Loading label from: artifacts/raw\Labels\148.txt
+2025-06-03 03:38:15,137 - INFO - Successfully processed item 54
+2025-06-03 03:38:15,137 - INFO - Processing item at index: 122
+2025-06-03 03:38:15,137 - DEBUG - Loading image from: artifacts/raw\Images\209.jpeg
+2025-06-03 03:38:15,137 - DEBUG - Loading label from: artifacts/raw\Labels\209.txt
+2025-06-03 03:38:15,138 - INFO - Successfully processed item 122
+2025-06-03 03:38:15,865 - DEBUG - Step [8/67] - Loss: 0.2124
+2025-06-03 03:38:15,866 - INFO - Processing item at index: 51
+2025-06-03 03:38:15,866 - DEBUG - Loading image from: artifacts/raw\Images\145.jpeg
+2025-06-03 03:38:15,868 - DEBUG - Loading label from: artifacts/raw\Labels\145.txt
+2025-06-03 03:38:15,868 - INFO - Successfully processed item 51
+2025-06-03 03:38:15,869 - INFO - Processing item at index: 115
+2025-06-03 03:38:15,869 - DEBUG - Loading image from: artifacts/raw\Images\202.jpeg
+2025-06-03 03:38:15,869 - DEBUG - Loading label from: artifacts/raw\Labels\202.txt
+2025-06-03 03:38:15,870 - INFO - Successfully processed item 115
+2025-06-03 03:38:15,870 - INFO - Processing item at index: 238
+2025-06-03 03:38:15,870 - DEBUG - Loading image from: artifacts/raw\Images\313.jpeg
+2025-06-03 03:38:15,871 - DEBUG - Loading label from: artifacts/raw\Labels\313.txt
+2025-06-03 03:38:15,871 - INFO - Successfully processed item 238
+2025-06-03 03:38:15,871 - INFO - Processing item at index: 246
+2025-06-03 03:38:15,871 - DEBUG - Loading image from: artifacts/raw\Images\320.jpeg
+2025-06-03 03:38:15,872 - DEBUG - Loading label from: artifacts/raw\Labels\320.txt
+2025-06-03 03:38:15,872 - INFO - Successfully processed item 246
+2025-06-03 03:38:16,628 - DEBUG - Step [9/67] - Loss: 0.2942
+2025-06-03 03:38:16,629 - INFO - Processing item at index: 39
+2025-06-03 03:38:16,629 - DEBUG - Loading image from: artifacts/raw\Images\134.jpeg
+2025-06-03 03:38:16,630 - DEBUG - Loading label from: artifacts/raw\Labels\134.txt
+2025-06-03 03:38:16,630 - INFO - Successfully processed item 39
+2025-06-03 03:38:16,630 - INFO - Processing item at index: 42
+2025-06-03 03:38:16,630 - DEBUG - Loading image from: artifacts/raw\Images\137.jpeg
+2025-06-03 03:38:16,631 - DEBUG - Loading label from: artifacts/raw\Labels\137.txt
+2025-06-03 03:38:16,631 - INFO - Successfully processed item 42
+2025-06-03 03:38:16,631 - INFO - Processing item at index: 261
+2025-06-03 03:38:16,631 - DEBUG - Loading image from: artifacts/raw\Images\34.jpeg
+2025-06-03 03:38:16,632 - DEBUG - Loading label from: artifacts/raw\Labels\34.txt
+2025-06-03 03:38:16,632 - INFO - Successfully processed item 261
+2025-06-03 03:38:16,632 - INFO - Processing item at index: 7
+2025-06-03 03:38:16,632 - DEBUG - Loading image from: artifacts/raw\Images\105.jpeg
+2025-06-03 03:38:16,633 - DEBUG - Loading label from: artifacts/raw\Labels\105.txt
+2025-06-03 03:38:16,633 - INFO - Successfully processed item 7
+2025-06-03 03:38:17,366 - DEBUG - Step [10/67] - Loss: 0.2200
+2025-06-03 03:38:17,367 - INFO - Processing item at index: 241
+2025-06-03 03:38:17,367 - DEBUG - Loading image from: artifacts/raw\Images\316.jpeg
+2025-06-03 03:38:17,367 - DEBUG - Loading label from: artifacts/raw\Labels\316.txt
+2025-06-03 03:38:17,368 - INFO - Successfully processed item 241
+2025-06-03 03:38:17,368 - INFO - Processing item at index: 165
+2025-06-03 03:38:17,368 - DEBUG - Loading image from: artifacts/raw\Images\248.jpeg
+2025-06-03 03:38:17,369 - DEBUG - Loading label from: artifacts/raw\Labels\248.txt
+2025-06-03 03:38:17,369 - INFO - Successfully processed item 165
+2025-06-03 03:38:17,369 - INFO - Processing item at index: 284
+2025-06-03 03:38:17,369 - DEBUG - Loading image from: artifacts/raw\Images\55.jpeg
+2025-06-03 03:38:17,370 - DEBUG - Loading label from: artifacts/raw\Labels\55.txt
+2025-06-03 03:38:17,370 - INFO - Successfully processed item 284
+2025-06-03 03:38:17,370 - INFO - Processing item at index: 130
+2025-06-03 03:38:17,371 - DEBUG - Loading image from: artifacts/raw\Images\216.jpeg
+2025-06-03 03:38:17,371 - DEBUG - Loading label from: artifacts/raw\Labels\216.txt
+2025-06-03 03:38:17,372 - INFO - Successfully processed item 130
+2025-06-03 03:38:18,112 - DEBUG - Step [11/67] - Loss: 0.1681
+2025-06-03 03:38:18,112 - INFO - Processing item at index: 199
+2025-06-03 03:38:18,112 - DEBUG - Loading image from: artifacts/raw\Images\279.jpeg
+2025-06-03 03:38:18,113 - DEBUG - Loading label from: artifacts/raw\Labels\279.txt
+2025-06-03 03:38:18,114 - INFO - Successfully processed item 199
+2025-06-03 03:38:18,114 - INFO - Processing item at index: 296
+2025-06-03 03:38:18,114 - DEBUG - Loading image from: artifacts/raw\Images\66.jpeg
+2025-06-03 03:38:18,114 - DEBUG - Loading label from: artifacts/raw\Labels\66.txt
+2025-06-03 03:38:18,115 - INFO - Successfully processed item 296
+2025-06-03 03:38:18,115 - INFO - Processing item at index: 20
+2025-06-03 03:38:18,115 - DEBUG - Loading image from: artifacts/raw\Images\117.jpeg
+2025-06-03 03:38:18,115 - DEBUG - Loading label from: artifacts/raw\Labels\117.txt
+2025-06-03 03:38:18,116 - INFO - Successfully processed item 20
+2025-06-03 03:38:18,116 - INFO - Processing item at index: 1
+2025-06-03 03:38:18,116 - DEBUG - Loading image from: artifacts/raw\Images\10.jpeg
+2025-06-03 03:38:18,116 - DEBUG - Loading label from: artifacts/raw\Labels\10.txt
+2025-06-03 03:38:18,117 - INFO - Successfully processed item 1
+2025-06-03 03:38:27,566 - DEBUG - Step [12/67] - Loss: 0.2316
+2025-06-03 03:38:27,568 - INFO - Processing item at index: 212
+2025-06-03 03:38:27,568 - DEBUG - Loading image from: artifacts/raw\Images\290.jpeg
+2025-06-03 03:38:27,568 - DEBUG - Loading label from: artifacts/raw\Labels\290.txt
+2025-06-03 03:38:27,569 - INFO - Successfully processed item 212
+2025-06-03 03:38:27,569 - INFO - Processing item at index: 170
+2025-06-03 03:38:27,569 - DEBUG - Loading image from: artifacts/raw\Images\252.jpeg
+2025-06-03 03:38:27,570 - DEBUG - Loading label from: artifacts/raw\Labels\252.txt
+2025-06-03 03:38:27,570 - INFO - Successfully processed item 170
+2025-06-03 03:38:27,570 - INFO - Processing item at index: 125
+2025-06-03 03:38:27,570 - DEBUG - Loading image from: artifacts/raw\Images\211.jpeg
+2025-06-03 03:38:27,570 - DEBUG - Loading label from: artifacts/raw\Labels\211.txt
+2025-06-03 03:38:27,571 - INFO - Successfully processed item 125
+2025-06-03 03:38:27,571 - INFO - Processing item at index: 181
+2025-06-03 03:38:27,571 - DEBUG - Loading image from: artifacts/raw\Images\262.jpeg
+2025-06-03 03:38:27,571 - DEBUG - Loading label from: artifacts/raw\Labels\262.txt
+2025-06-03 03:38:27,572 - INFO - Successfully processed item 181
+2025-06-03 03:38:28,297 - DEBUG - Step [13/67] - Loss: 0.2300
+2025-06-03 03:38:28,298 - INFO - Processing item at index: 171
+2025-06-03 03:38:28,298 - DEBUG - Loading image from: artifacts/raw\Images\253.jpeg
+2025-06-03 03:38:28,299 - DEBUG - Loading label from: artifacts/raw\Labels\253.txt
+2025-06-03 03:38:28,299 - INFO - Successfully processed item 171
+2025-06-03 03:38:28,299 - INFO - Processing item at index: 304
+2025-06-03 03:38:28,299 - DEBUG - Loading image from: artifacts/raw\Images\73.jpeg
+2025-06-03 03:38:28,300 - DEBUG - Loading label from: artifacts/raw\Labels\73.txt
+2025-06-03 03:38:28,300 - INFO - Successfully processed item 304
+2025-06-03 03:38:28,300 - INFO - Processing item at index: 94
+2025-06-03 03:38:28,300 - DEBUG - Loading image from: artifacts/raw\Images\184.jpeg
+2025-06-03 03:38:28,301 - DEBUG - Loading label from: artifacts/raw\Labels\184.txt
+2025-06-03 03:38:28,301 - INFO - Successfully processed item 94
+2025-06-03 03:38:28,301 - INFO - Processing item at index: 315
+2025-06-03 03:38:28,301 - DEBUG - Loading image from: artifacts/raw\Images\83.jpeg
+2025-06-03 03:38:28,302 - DEBUG - Loading label from: artifacts/raw\Labels\83.txt
+2025-06-03 03:38:28,302 - INFO - Successfully processed item 315
+2025-06-03 03:38:29,033 - DEBUG - Step [14/67] - Loss: 0.2973
+2025-06-03 03:38:29,033 - INFO - Processing item at index: 290
+2025-06-03 03:38:29,033 - DEBUG - Loading image from: artifacts/raw\Images\60.jpeg
+2025-06-03 03:38:29,034 - DEBUG - Loading label from: artifacts/raw\Labels\60.txt
+2025-06-03 03:38:29,035 - INFO - Successfully processed item 290
+2025-06-03 03:38:29,035 - INFO - Processing item at index: 90
+2025-06-03 03:38:29,035 - DEBUG - Loading image from: artifacts/raw\Images\180.jpeg
+2025-06-03 03:38:29,035 - DEBUG - Loading label from: artifacts/raw\Labels\180.txt
+2025-06-03 03:38:29,036 - INFO - Successfully processed item 90
+2025-06-03 03:38:29,036 - INFO - Processing item at index: 27
+2025-06-03 03:38:29,036 - DEBUG - Loading image from: artifacts/raw\Images\123.jpeg
+2025-06-03 03:38:29,036 - DEBUG - Loading label from: artifacts/raw\Labels\123.txt
+2025-06-03 03:38:29,037 - INFO - Successfully processed item 27
+2025-06-03 03:38:29,037 - INFO - Processing item at index: 174
+2025-06-03 03:38:29,037 - DEBUG - Loading image from: artifacts/raw\Images\256.jpeg
+2025-06-03 03:38:29,037 - DEBUG - Loading label from: artifacts/raw\Labels\256.txt
+2025-06-03 03:38:29,037 - INFO - Successfully processed item 174
+2025-06-03 03:38:29,734 - DEBUG - Step [15/67] - Loss: 0.2819
+2025-06-03 03:38:29,735 - INFO - Processing item at index: 233
+2025-06-03 03:38:29,735 - DEBUG - Loading image from: artifacts/raw\Images\309.jpeg
+2025-06-03 03:38:29,736 - DEBUG - Loading label from: artifacts/raw\Labels\309.txt
+2025-06-03 03:38:29,737 - INFO - Successfully processed item 233
+2025-06-03 03:38:29,737 - INFO - Processing item at index: 316
+2025-06-03 03:38:29,737 - DEBUG - Loading image from: artifacts/raw\Images\84.jpeg
+2025-06-03 03:38:29,737 - DEBUG - Loading label from: artifacts/raw\Labels\84.txt
+2025-06-03 03:38:29,738 - INFO - Successfully processed item 316
+2025-06-03 03:38:29,738 - INFO - Processing item at index: 285
+2025-06-03 03:38:29,738 - DEBUG - Loading image from: artifacts/raw\Images\56.jpeg
+2025-06-03 03:38:29,738 - DEBUG - Loading label from: artifacts/raw\Labels\56.txt
+2025-06-03 03:38:29,739 - INFO - Successfully processed item 285
+2025-06-03 03:38:29,739 - INFO - Processing item at index: 50
+2025-06-03 03:38:29,739 - DEBUG - Loading image from: artifacts/raw\Images\144.jpeg
+2025-06-03 03:38:29,739 - DEBUG - Loading label from: artifacts/raw\Labels\144.txt
+2025-06-03 03:38:29,740 - INFO - Successfully processed item 50
+2025-06-03 03:38:30,470 - DEBUG - Step [16/67] - Loss: 0.2405
+2025-06-03 03:38:30,470 - INFO - Processing item at index: 204
+2025-06-03 03:38:30,470 - DEBUG - Loading image from: artifacts/raw\Images\283.jpeg
+2025-06-03 03:38:30,471 - DEBUG - Loading label from: artifacts/raw\Labels\283.txt
+2025-06-03 03:38:30,471 - INFO - Successfully processed item 204
+2025-06-03 03:38:30,472 - INFO - Processing item at index: 311
+2025-06-03 03:38:30,472 - DEBUG - Loading image from: artifacts/raw\Images\8.jpeg
+2025-06-03 03:38:30,472 - DEBUG - Loading label from: artifacts/raw\Labels\8.txt
+2025-06-03 03:38:30,472 - INFO - Successfully processed item 311
+2025-06-03 03:38:30,472 - INFO - Processing item at index: 89
+2025-06-03 03:38:30,472 - DEBUG - Loading image from: artifacts/raw\Images\18.jpeg
+2025-06-03 03:38:30,473 - DEBUG - Loading label from: artifacts/raw\Labels\18.txt
+2025-06-03 03:38:30,473 - INFO - Successfully processed item 89
+2025-06-03 03:38:30,473 - INFO - Processing item at index: 64
+2025-06-03 03:38:30,473 - DEBUG - Loading image from: artifacts/raw\Images\157.jpeg
+2025-06-03 03:38:30,474 - DEBUG - Loading label from: artifacts/raw\Labels\157.txt
+2025-06-03 03:38:30,474 - INFO - Successfully processed item 64
+2025-06-03 03:38:35,012 - DEBUG - Step [17/67] - Loss: 0.2310
+2025-06-03 03:38:35,013 - INFO - Processing item at index: 149
+2025-06-03 03:38:35,013 - DEBUG - Loading image from: artifacts/raw\Images\233.jpeg
+2025-06-03 03:38:35,013 - DEBUG - Loading label from: artifacts/raw\Labels\233.txt
+2025-06-03 03:38:35,014 - INFO - Successfully processed item 149
+2025-06-03 03:38:35,014 - INFO - Processing item at index: 59
+2025-06-03 03:38:35,014 - DEBUG - Loading image from: artifacts/raw\Images\152.jpeg
+2025-06-03 03:38:35,015 - DEBUG - Loading label from: artifacts/raw\Labels\152.txt
+2025-06-03 03:38:35,015 - INFO - Successfully processed item 59
+2025-06-03 03:38:35,015 - INFO - Processing item at index: 21
+2025-06-03 03:38:35,015 - DEBUG - Loading image from: artifacts/raw\Images\118.jpeg
+2025-06-03 03:38:35,016 - DEBUG - Loading label from: artifacts/raw\Labels\118.txt
+2025-06-03 03:38:35,016 - INFO - Successfully processed item 21
+2025-06-03 03:38:35,016 - INFO - Processing item at index: 167
+2025-06-03 03:38:35,016 - DEBUG - Loading image from: artifacts/raw\Images\25.jpeg
+2025-06-03 03:38:35,016 - DEBUG - Loading label from: artifacts/raw\Labels\25.txt
+2025-06-03 03:38:35,017 - INFO - Successfully processed item 167
+2025-06-03 03:38:35,773 - DEBUG - Step [18/67] - Loss: 0.2067
+2025-06-03 03:38:35,773 - INFO - Processing item at index: 180
+2025-06-03 03:38:35,774 - DEBUG - Loading image from: artifacts/raw\Images\261.jpeg
+2025-06-03 03:38:35,774 - DEBUG - Loading label from: artifacts/raw\Labels\261.txt
+2025-06-03 03:38:35,775 - INFO - Successfully processed item 180
+2025-06-03 03:38:35,775 - INFO - Processing item at index: 176
+2025-06-03 03:38:35,775 - DEBUG - Loading image from: artifacts/raw\Images\258.jpeg
+2025-06-03 03:38:35,776 - DEBUG - Loading label from: artifacts/raw\Labels\258.txt
+2025-06-03 03:38:35,776 - INFO - Successfully processed item 176
+2025-06-03 03:38:35,776 - INFO - Processing item at index: 162
+2025-06-03 03:38:35,776 - DEBUG - Loading image from: artifacts/raw\Images\245.jpeg
+2025-06-03 03:38:35,777 - DEBUG - Loading label from: artifacts/raw\Labels\245.txt
+2025-06-03 03:38:35,777 - INFO - Successfully processed item 162
+2025-06-03 03:38:35,777 - INFO - Processing item at index: 235
+2025-06-03 03:38:35,777 - DEBUG - Loading image from: artifacts/raw\Images\310.jpeg
+2025-06-03 03:38:35,778 - DEBUG - Loading label from: artifacts/raw\Labels\310.txt
+2025-06-03 03:38:35,779 - INFO - Successfully processed item 235
+2025-06-03 03:38:43,699 - DEBUG - Step [19/67] - Loss: 0.2402
+2025-06-03 03:38:43,699 - INFO - Processing item at index: 25
+2025-06-03 03:38:43,699 - DEBUG - Loading image from: artifacts/raw\Images\121.jpeg
+2025-06-03 03:38:43,700 - DEBUG - Loading label from: artifacts/raw\Labels\121.txt
+2025-06-03 03:38:43,701 - INFO - Successfully processed item 25
+2025-06-03 03:38:43,701 - INFO - Processing item at index: 140
+2025-06-03 03:38:43,701 - DEBUG - Loading image from: artifacts/raw\Images\225.jpeg
+2025-06-03 03:38:43,701 - DEBUG - Loading label from: artifacts/raw\Labels\225.txt
+2025-06-03 03:38:43,702 - INFO - Successfully processed item 140
+2025-06-03 03:38:43,702 - INFO - Processing item at index: 257
+2025-06-03 03:38:43,702 - DEBUG - Loading image from: artifacts/raw\Images\330.jpeg
+2025-06-03 03:38:43,702 - DEBUG - Loading label from: artifacts/raw\Labels\330.txt
+2025-06-03 03:38:43,703 - INFO - Successfully processed item 257
+2025-06-03 03:38:43,703 - INFO - Processing item at index: 66
+2025-06-03 03:38:43,703 - DEBUG - Loading image from: artifacts/raw\Images\159.jpeg
+2025-06-03 03:38:43,703 - DEBUG - Loading label from: artifacts/raw\Labels\159.txt
+2025-06-03 03:38:43,703 - INFO - Successfully processed item 66
+2025-06-03 03:38:44,431 - DEBUG - Step [20/67] - Loss: 0.3388
+2025-06-03 03:38:44,431 - INFO - Processing item at index: 88
+2025-06-03 03:38:44,431 - DEBUG - Loading image from: artifacts/raw\Images\179.jpeg
+2025-06-03 03:38:44,432 - DEBUG - Loading label from: artifacts/raw\Labels\179.txt
+2025-06-03 03:38:44,432 - INFO - Successfully processed item 88
+2025-06-03 03:38:44,432 - INFO - Processing item at index: 282
+2025-06-03 03:38:44,433 - DEBUG - Loading image from: artifacts/raw\Images\53.jpeg
+2025-06-03 03:38:44,433 - DEBUG - Loading label from: artifacts/raw\Labels\53.txt
+2025-06-03 03:38:44,433 - INFO - Successfully processed item 282
+2025-06-03 03:38:44,433 - INFO - Processing item at index: 203
+2025-06-03 03:38:44,433 - DEBUG - Loading image from: artifacts/raw\Images\282.jpeg
+2025-06-03 03:38:44,434 - DEBUG - Loading label from: artifacts/raw\Labels\282.txt
+2025-06-03 03:38:44,434 - INFO - Successfully processed item 203
+2025-06-03 03:38:44,434 - INFO - Processing item at index: 314
+2025-06-03 03:38:44,434 - DEBUG - Loading image from: artifacts/raw\Images\82.jpeg
+2025-06-03 03:38:44,435 - DEBUG - Loading label from: artifacts/raw\Labels\82.txt
+2025-06-03 03:38:44,435 - INFO - Successfully processed item 314
+2025-06-03 03:38:45,163 - DEBUG - Step [21/67] - Loss: 0.1867
+2025-06-03 03:38:45,163 - INFO - Processing item at index: 260
+2025-06-03 03:38:45,163 - DEBUG - Loading image from: artifacts/raw\Images\333.jpeg
+2025-06-03 03:38:45,164 - DEBUG - Loading label from: artifacts/raw\Labels\333.txt
+2025-06-03 03:38:45,165 - INFO - Successfully processed item 260
+2025-06-03 03:38:45,165 - INFO - Processing item at index: 155
+2025-06-03 03:38:45,165 - DEBUG - Loading image from: artifacts/raw\Images\239.jpeg
+2025-06-03 03:38:45,166 - DEBUG - Loading label from: artifacts/raw\Labels\239.txt
+2025-06-03 03:38:45,166 - INFO - Successfully processed item 155
+2025-06-03 03:38:45,166 - INFO - Processing item at index: 206
+2025-06-03 03:38:45,166 - DEBUG - Loading image from: artifacts/raw\Images\285.jpeg
+2025-06-03 03:38:45,166 - DEBUG - Loading label from: artifacts/raw\Labels\285.txt
+2025-06-03 03:38:45,167 - INFO - Successfully processed item 206
+2025-06-03 03:38:45,167 - INFO - Processing item at index: 223
+2025-06-03 03:38:45,167 - DEBUG - Loading image from: artifacts/raw\Images\30.jpeg
+2025-06-03 03:38:45,167 - DEBUG - Loading label from: artifacts/raw\Labels\30.txt
+2025-06-03 03:38:45,168 - INFO - Successfully processed item 223
+2025-06-03 03:38:45,895 - DEBUG - Step [22/67] - Loss: 0.2269
+2025-06-03 03:38:45,895 - INFO - Processing item at index: 32
+2025-06-03 03:38:45,895 - DEBUG - Loading image from: artifacts/raw\Images\128.jpeg
+2025-06-03 03:38:45,896 - DEBUG - Loading label from: artifacts/raw\Labels\128.txt
+2025-06-03 03:38:45,896 - INFO - Successfully processed item 32
+2025-06-03 03:38:45,897 - INFO - Processing item at index: 69
+2025-06-03 03:38:45,897 - DEBUG - Loading image from: artifacts/raw\Images\161.jpeg
+2025-06-03 03:38:45,897 - DEBUG - Loading label from: artifacts/raw\Labels\161.txt
+2025-06-03 03:38:45,897 - INFO - Successfully processed item 69
+2025-06-03 03:38:45,897 - INFO - Processing item at index: 79
+2025-06-03 03:38:45,897 - DEBUG - Loading image from: artifacts/raw\Images\170.jpeg
+2025-06-03 03:38:45,898 - DEBUG - Loading label from: artifacts/raw\Labels\170.txt
+2025-06-03 03:38:45,898 - INFO - Successfully processed item 79
+2025-06-03 03:38:45,898 - INFO - Processing item at index: 138
+2025-06-03 03:38:45,898 - DEBUG - Loading image from: artifacts/raw\Images\223.jpeg
+2025-06-03 03:38:45,899 - DEBUG - Loading label from: artifacts/raw\Labels\223.txt
+2025-06-03 03:38:45,899 - INFO - Successfully processed item 138
+2025-06-03 03:38:50,998 - DEBUG - Step [23/67] - Loss: 0.2186
+2025-06-03 03:38:50,999 - INFO - Processing item at index: 295
+2025-06-03 03:38:50,999 - DEBUG - Loading image from: artifacts/raw\Images\65.jpeg
+2025-06-03 03:38:51,000 - DEBUG - Loading label from: artifacts/raw\Labels\65.txt
+2025-06-03 03:38:51,000 - INFO - Successfully processed item 295
+2025-06-03 03:38:51,000 - INFO - Processing item at index: 277
+2025-06-03 03:38:51,000 - DEBUG - Loading image from: artifacts/raw\Images\49.jpeg
+2025-06-03 03:38:51,001 - DEBUG - Loading label from: artifacts/raw\Labels\49.txt
+2025-06-03 03:38:51,001 - INFO - Successfully processed item 277
+2025-06-03 03:38:51,001 - INFO - Processing item at index: 9
+2025-06-03 03:38:51,001 - DEBUG - Loading image from: artifacts/raw\Images\107.jpeg
+2025-06-03 03:38:51,002 - DEBUG - Loading label from: artifacts/raw\Labels\107.txt
+2025-06-03 03:38:51,002 - INFO - Successfully processed item 9
+2025-06-03 03:38:51,002 - INFO - Processing item at index: 164
+2025-06-03 03:38:51,002 - DEBUG - Loading image from: artifacts/raw\Images\247.jpeg
+2025-06-03 03:38:51,003 - DEBUG - Loading label from: artifacts/raw\Labels\247.txt
+2025-06-03 03:38:51,003 - INFO - Successfully processed item 164
+2025-06-03 03:38:51,729 - DEBUG - Step [24/67] - Loss: 0.2161
+2025-06-03 03:38:51,730 - INFO - Processing item at index: 229
+2025-06-03 03:38:51,730 - DEBUG - Loading image from: artifacts/raw\Images\305.jpeg
+2025-06-03 03:38:51,731 - DEBUG - Loading label from: artifacts/raw\Labels\305.txt
+2025-06-03 03:38:51,731 - INFO - Successfully processed item 229
+2025-06-03 03:38:51,731 - INFO - Processing item at index: 249
+2025-06-03 03:38:51,731 - DEBUG - Loading image from: artifacts/raw\Images\323.jpeg
+2025-06-03 03:38:51,732 - DEBUG - Loading label from: artifacts/raw\Labels\323.txt
+2025-06-03 03:38:51,732 - INFO - Successfully processed item 249
+2025-06-03 03:38:51,732 - INFO - Processing item at index: 292
+2025-06-03 03:38:51,732 - DEBUG - Loading image from: artifacts/raw\Images\62.jpeg
+2025-06-03 03:38:51,733 - DEBUG - Loading label from: artifacts/raw\Labels\62.txt
+2025-06-03 03:38:51,733 - INFO - Successfully processed item 292
+2025-06-03 03:38:51,733 - INFO - Processing item at index: 312
+2025-06-03 03:38:51,733 - DEBUG - Loading image from: artifacts/raw\Images\80.jpeg
+2025-06-03 03:38:51,733 - DEBUG - Loading label from: artifacts/raw\Labels\80.txt
+2025-06-03 03:38:51,734 - INFO - Successfully processed item 312
+2025-06-03 03:38:52,462 - DEBUG - Step [25/67] - Loss: 0.2122
+2025-06-03 03:38:52,462 - INFO - Processing item at index: 74
+2025-06-03 03:38:52,462 - DEBUG - Loading image from: artifacts/raw\Images\166.jpeg
+2025-06-03 03:38:52,463 - DEBUG - Loading label from: artifacts/raw\Labels\166.txt
+2025-06-03 03:38:52,464 - INFO - Successfully processed item 74
+2025-06-03 03:38:52,464 - INFO - Processing item at index: 0
+2025-06-03 03:38:52,464 - DEBUG - Loading image from: artifacts/raw\Images\1.jpeg
+2025-06-03 03:38:52,464 - DEBUG - Loading label from: artifacts/raw\Labels\1.txt
+2025-06-03 03:38:52,465 - INFO - Successfully processed item 0
+2025-06-03 03:38:52,465 - INFO - Processing item at index: 119
+2025-06-03 03:38:52,465 - DEBUG - Loading image from: artifacts/raw\Images\206.jpeg
+2025-06-03 03:38:52,465 - DEBUG - Loading label from: artifacts/raw\Labels\206.txt
+2025-06-03 03:38:52,466 - INFO - Successfully processed item 119
+2025-06-03 03:38:52,466 - INFO - Processing item at index: 309
+2025-06-03 03:38:52,466 - DEBUG - Loading image from: artifacts/raw\Images\78.jpeg
+2025-06-03 03:38:52,466 - DEBUG - Loading label from: artifacts/raw\Labels\78.txt
+2025-06-03 03:38:52,467 - INFO - Successfully processed item 309
+2025-06-03 03:38:53,194 - DEBUG - Step [26/67] - Loss: 0.1711
+2025-06-03 03:38:53,195 - INFO - Processing item at index: 161
+2025-06-03 03:38:53,195 - DEBUG - Loading image from: artifacts/raw\Images\244.jpeg
+2025-06-03 03:38:53,195 - DEBUG - Loading label from: artifacts/raw\Labels\244.txt
+2025-06-03 03:38:53,196 - INFO - Successfully processed item 161
+2025-06-03 03:38:53,196 - INFO - Processing item at index: 40
+2025-06-03 03:38:53,196 - DEBUG - Loading image from: artifacts/raw\Images\135.jpeg
+2025-06-03 03:38:53,197 - DEBUG - Loading label from: artifacts/raw\Labels\135.txt
+2025-06-03 03:38:53,197 - INFO - Successfully processed item 40
+2025-06-03 03:38:53,197 - INFO - Processing item at index: 192
+2025-06-03 03:38:53,197 - DEBUG - Loading image from: artifacts/raw\Images\272.jpeg
+2025-06-03 03:38:53,197 - DEBUG - Loading label from: artifacts/raw\Labels\272.txt
+2025-06-03 03:38:53,198 - INFO - Successfully processed item 192
+2025-06-03 03:38:53,198 - INFO - Processing item at index: 136
+2025-06-03 03:38:53,198 - DEBUG - Loading image from: artifacts/raw\Images\221.jpeg
+2025-06-03 03:38:53,198 - DEBUG - Loading label from: artifacts/raw\Labels\221.txt
+2025-06-03 03:38:53,199 - INFO - Successfully processed item 136
+2025-06-03 03:38:57,393 - DEBUG - Step [27/67] - Loss: 0.3173
+2025-06-03 03:38:57,394 - INFO - Processing item at index: 150
+2025-06-03 03:38:57,394 - DEBUG - Loading image from: artifacts/raw\Images\234.jpeg
+2025-06-03 03:38:57,395 - DEBUG - Loading label from: artifacts/raw\Labels\234.txt
+2025-06-03 03:38:57,395 - INFO - Successfully processed item 150
+2025-06-03 03:38:57,395 - INFO - Processing item at index: 142
+2025-06-03 03:38:57,395 - DEBUG - Loading image from: artifacts/raw\Images\227.jpeg
+2025-06-03 03:38:57,396 - DEBUG - Loading label from: artifacts/raw\Labels\227.txt
+2025-06-03 03:38:57,396 - INFO - Successfully processed item 142
+2025-06-03 03:38:57,396 - INFO - Processing item at index: 197
+2025-06-03 03:38:57,396 - DEBUG - Loading image from: artifacts/raw\Images\277.jpeg
+2025-06-03 03:38:57,396 - DEBUG - Loading label from: artifacts/raw\Labels\277.txt
+2025-06-03 03:38:57,397 - INFO - Successfully processed item 197
+2025-06-03 03:38:57,397 - INFO - Processing item at index: 291
+2025-06-03 03:38:57,397 - DEBUG - Loading image from: artifacts/raw\Images\61.jpeg
+2025-06-03 03:38:57,397 - DEBUG - Loading label from: artifacts/raw\Labels\61.txt
+2025-06-03 03:38:57,398 - INFO - Successfully processed item 291
+2025-06-03 03:38:58,129 - DEBUG - Step [28/67] - Loss: 0.1883
+2025-06-03 03:38:58,129 - INFO - Processing item at index: 146
+2025-06-03 03:38:58,129 - DEBUG - Loading image from: artifacts/raw\Images\230.jpeg
+2025-06-03 03:38:58,130 - DEBUG - Loading label from: artifacts/raw\Labels\230.txt
+2025-06-03 03:38:58,130 - INFO - Successfully processed item 146
+2025-06-03 03:38:58,130 - INFO - Processing item at index: 322
+2025-06-03 03:38:58,130 - DEBUG - Loading image from: artifacts/raw\Images\9.jpeg
+2025-06-03 03:38:58,131 - DEBUG - Loading label from: artifacts/raw\Labels\9.txt
+2025-06-03 03:38:58,131 - INFO - Successfully processed item 322
+2025-06-03 03:38:58,131 - INFO - Processing item at index: 163
+2025-06-03 03:38:58,131 - DEBUG - Loading image from: artifacts/raw\Images\246.jpeg
+2025-06-03 03:38:58,132 - DEBUG - Loading label from: artifacts/raw\Labels\246.txt
+2025-06-03 03:38:58,132 - INFO - Successfully processed item 163
+2025-06-03 03:38:58,132 - INFO - Processing item at index: 287
+2025-06-03 03:38:58,132 - DEBUG - Loading image from: artifacts/raw\Images\58.jpeg
+2025-06-03 03:38:58,133 - DEBUG - Loading label from: artifacts/raw\Labels\58.txt
+2025-06-03 03:38:58,133 - INFO - Successfully processed item 287
+2025-06-03 03:38:58,874 - DEBUG - Step [29/67] - Loss: 0.1783
+2025-06-03 03:38:58,874 - INFO - Processing item at index: 36
+2025-06-03 03:38:58,875 - DEBUG - Loading image from: artifacts/raw\Images\131.jpeg
+2025-06-03 03:38:58,875 - DEBUG - Loading label from: artifacts/raw\Labels\131.txt
+2025-06-03 03:38:58,876 - INFO - Successfully processed item 36
+2025-06-03 03:38:58,876 - INFO - Processing item at index: 216
+2025-06-03 03:38:58,876 - DEBUG - Loading image from: artifacts/raw\Images\294.jpeg
+2025-06-03 03:38:58,876 - DEBUG - Loading label from: artifacts/raw\Labels\294.txt
+2025-06-03 03:38:58,877 - INFO - Successfully processed item 216
+2025-06-03 03:38:58,877 - INFO - Processing item at index: 281
+2025-06-03 03:38:58,877 - DEBUG - Loading image from: artifacts/raw\Images\52.jpeg
+2025-06-03 03:38:58,877 - DEBUG - Loading label from: artifacts/raw\Labels\52.txt
+2025-06-03 03:38:58,877 - INFO - Successfully processed item 281
+2025-06-03 03:38:58,878 - INFO - Processing item at index: 185
+2025-06-03 03:38:58,878 - DEBUG - Loading image from: artifacts/raw\Images\266.jpeg
+2025-06-03 03:38:58,878 - DEBUG - Loading label from: artifacts/raw\Labels\266.txt
+2025-06-03 03:38:58,878 - INFO - Successfully processed item 185
+2025-06-03 03:38:59,606 - DEBUG - Step [30/67] - Loss: 0.2048
+2025-06-03 03:38:59,607 - INFO - Processing item at index: 63
+2025-06-03 03:38:59,607 - DEBUG - Loading image from: artifacts/raw\Images\156.jpeg
+2025-06-03 03:38:59,609 - DEBUG - Loading label from: artifacts/raw\Labels\156.txt
+2025-06-03 03:38:59,609 - INFO - Successfully processed item 63
+2025-06-03 03:38:59,609 - INFO - Processing item at index: 182
+2025-06-03 03:38:59,610 - DEBUG - Loading image from: artifacts/raw\Images\263.jpeg
+2025-06-03 03:38:59,610 - DEBUG - Loading label from: artifacts/raw\Labels\263.txt
+2025-06-03 03:38:59,611 - INFO - Successfully processed item 182
+2025-06-03 03:38:59,611 - INFO - Processing item at index: 111
+2025-06-03 03:38:59,611 - DEBUG - Loading image from: artifacts/raw\Images\2.jpeg
+2025-06-03 03:38:59,612 - DEBUG - Loading label from: artifacts/raw\Labels\2.txt
+2025-06-03 03:38:59,612 - INFO - Successfully processed item 111
+2025-06-03 03:38:59,612 - INFO - Processing item at index: 240
+2025-06-03 03:38:59,612 - DEBUG - Loading image from: artifacts/raw\Images\315.jpeg
+2025-06-03 03:38:59,613 - DEBUG - Loading label from: artifacts/raw\Labels\315.txt
+2025-06-03 03:38:59,613 - INFO - Successfully processed item 240
+2025-06-03 03:39:00,352 - DEBUG - Step [31/67] - Loss: 0.3708
+2025-06-03 03:39:00,353 - INFO - Processing item at index: 101
+2025-06-03 03:39:00,353 - DEBUG - Loading image from: artifacts/raw\Images\190.jpeg
+2025-06-03 03:39:00,354 - DEBUG - Loading label from: artifacts/raw\Labels\190.txt
+2025-06-03 03:39:00,355 - INFO - Successfully processed item 101
+2025-06-03 03:39:00,355 - INFO - Processing item at index: 107
+2025-06-03 03:39:00,355 - DEBUG - Loading image from: artifacts/raw\Images\196.jpeg
+2025-06-03 03:39:00,356 - DEBUG - Loading label from: artifacts/raw\Labels\196.txt
+2025-06-03 03:39:00,356 - INFO - Successfully processed item 107
+2025-06-03 03:39:00,356 - INFO - Processing item at index: 3
+2025-06-03 03:39:00,356 - DEBUG - Loading image from: artifacts/raw\Images\101.jpeg
+2025-06-03 03:39:00,358 - DEBUG - Loading label from: artifacts/raw\Labels\101.txt
+2025-06-03 03:39:00,358 - INFO - Successfully processed item 3
+2025-06-03 03:39:00,358 - INFO - Processing item at index: 8
+2025-06-03 03:39:00,358 - DEBUG - Loading image from: artifacts/raw\Images\106.jpeg
+2025-06-03 03:39:00,359 - DEBUG - Loading label from: artifacts/raw\Labels\106.txt
+2025-06-03 03:39:00,359 - INFO - Successfully processed item 8
+2025-06-03 03:39:01,103 - DEBUG - Step [32/67] - Loss: 0.3022
+2025-06-03 03:39:01,104 - INFO - Processing item at index: 129
+2025-06-03 03:39:01,104 - DEBUG - Loading image from: artifacts/raw\Images\215.jpeg
+2025-06-03 03:39:01,104 - DEBUG - Loading label from: artifacts/raw\Labels\215.txt
+2025-06-03 03:39:01,105 - INFO - Successfully processed item 129
+2025-06-03 03:39:01,105 - INFO - Processing item at index: 148
+2025-06-03 03:39:01,105 - DEBUG - Loading image from: artifacts/raw\Images\232.jpeg
+2025-06-03 03:39:01,106 - DEBUG - Loading label from: artifacts/raw\Labels\232.txt
+2025-06-03 03:39:01,106 - INFO - Successfully processed item 148
+2025-06-03 03:39:01,106 - INFO - Processing item at index: 110
+2025-06-03 03:39:01,106 - DEBUG - Loading image from: artifacts/raw\Images\199.jpeg
+2025-06-03 03:39:01,106 - DEBUG - Loading label from: artifacts/raw\Labels\199.txt
+2025-06-03 03:39:01,108 - INFO - Successfully processed item 110
+2025-06-03 03:39:01,108 - INFO - Processing item at index: 263
+2025-06-03 03:39:01,108 - DEBUG - Loading image from: artifacts/raw\Images\36.jpeg
+2025-06-03 03:39:01,108 - DEBUG - Loading label from: artifacts/raw\Labels\36.txt
+2025-06-03 03:39:01,109 - INFO - Successfully processed item 263
+2025-06-03 03:39:01,839 - DEBUG - Step [33/67] - Loss: 0.2619
+2025-06-03 03:39:01,840 - INFO - Processing item at index: 131
+2025-06-03 03:39:01,841 - DEBUG - Loading image from: artifacts/raw\Images\217.jpeg
+2025-06-03 03:39:01,842 - DEBUG - Loading label from: artifacts/raw\Labels\217.txt
+2025-06-03 03:39:01,844 - INFO - Successfully processed item 131
+2025-06-03 03:39:01,845 - INFO - Processing item at index: 44
+2025-06-03 03:39:01,846 - DEBUG - Loading image from: artifacts/raw\Images\139.jpeg
+2025-06-03 03:39:01,847 - DEBUG - Loading label from: artifacts/raw\Labels\139.txt
+2025-06-03 03:39:01,847 - INFO - Successfully processed item 44
+2025-06-03 03:39:01,848 - INFO - Processing item at index: 173
+2025-06-03 03:39:01,848 - DEBUG - Loading image from: artifacts/raw\Images\255.jpeg
+2025-06-03 03:39:01,854 - DEBUG - Loading label from: artifacts/raw\Labels\255.txt
+2025-06-03 03:39:01,859 - INFO - Successfully processed item 173
+2025-06-03 03:39:01,859 - INFO - Processing item at index: 184
+2025-06-03 03:39:01,859 - DEBUG - Loading image from: artifacts/raw\Images\265.jpeg
+2025-06-03 03:39:01,865 - DEBUG - Loading label from: artifacts/raw\Labels\265.txt
+2025-06-03 03:39:01,871 - INFO - Successfully processed item 184
+2025-06-03 03:39:09,536 - DEBUG - Step [34/67] - Loss: 0.2134
+2025-06-03 03:39:09,536 - INFO - Processing item at index: 124
+2025-06-03 03:39:09,536 - DEBUG - Loading image from: artifacts/raw\Images\210.jpeg
+2025-06-03 03:39:09,537 - DEBUG - Loading label from: artifacts/raw\Labels\210.txt
+2025-06-03 03:39:09,537 - INFO - Successfully processed item 124
+2025-06-03 03:39:09,538 - INFO - Processing item at index: 153
+2025-06-03 03:39:09,538 - DEBUG - Loading image from: artifacts/raw\Images\237.jpeg
+2025-06-03 03:39:09,538 - DEBUG - Loading label from: artifacts/raw\Labels\237.txt
+2025-06-03 03:39:09,539 - INFO - Successfully processed item 153
+2025-06-03 03:39:09,539 - INFO - Processing item at index: 279
+2025-06-03 03:39:09,539 - DEBUG - Loading image from: artifacts/raw\Images\50.jpeg
+2025-06-03 03:39:09,539 - DEBUG - Loading label from: artifacts/raw\Labels\50.txt
+2025-06-03 03:39:09,540 - INFO - Successfully processed item 279
+2025-06-03 03:39:09,540 - INFO - Processing item at index: 152
+2025-06-03 03:39:09,540 - DEBUG - Loading image from: artifacts/raw\Images\236.jpeg
+2025-06-03 03:39:09,540 - DEBUG - Loading label from: artifacts/raw\Labels\236.txt
+2025-06-03 03:39:09,540 - INFO - Successfully processed item 152
+2025-06-03 03:39:10,269 - DEBUG - Step [35/67] - Loss: 0.1795
+2025-06-03 03:39:10,270 - INFO - Processing item at index: 53
+2025-06-03 03:39:10,270 - DEBUG - Loading image from: artifacts/raw\Images\147.jpeg
+2025-06-03 03:39:10,271 - DEBUG - Loading label from: artifacts/raw\Labels\147.txt
+2025-06-03 03:39:10,271 - INFO - Successfully processed item 53
+2025-06-03 03:39:10,271 - INFO - Processing item at index: 271
+2025-06-03 03:39:10,271 - DEBUG - Loading image from: artifacts/raw\Images\43.jpeg
+2025-06-03 03:39:10,272 - DEBUG - Loading label from: artifacts/raw\Labels\43.txt
+2025-06-03 03:39:10,273 - INFO - Successfully processed item 271
+2025-06-03 03:39:10,273 - INFO - Processing item at index: 95
+2025-06-03 03:39:10,274 - DEBUG - Loading image from: artifacts/raw\Images\185.jpeg
+2025-06-03 03:39:10,274 - DEBUG - Loading label from: artifacts/raw\Labels\185.txt
+2025-06-03 03:39:10,275 - INFO - Successfully processed item 95
+2025-06-03 03:39:10,275 - INFO - Processing item at index: 226
+2025-06-03 03:39:10,275 - DEBUG - Loading image from: artifacts/raw\Images\302.jpeg
+2025-06-03 03:39:10,276 - DEBUG - Loading label from: artifacts/raw\Labels\302.txt
+2025-06-03 03:39:10,276 - INFO - Successfully processed item 226
+2025-06-03 03:39:11,032 - DEBUG - Step [36/67] - Loss: 0.2125
+2025-06-03 03:39:11,032 - INFO - Processing item at index: 18
+2025-06-03 03:39:11,033 - DEBUG - Loading image from: artifacts/raw\Images\115.jpeg
+2025-06-03 03:39:11,033 - DEBUG - Loading label from: artifacts/raw\Labels\115.txt
+2025-06-03 03:39:11,034 - INFO - Successfully processed item 18
+2025-06-03 03:39:11,034 - INFO - Processing item at index: 43
+2025-06-03 03:39:11,034 - DEBUG - Loading image from: artifacts/raw\Images\138.jpeg
+2025-06-03 03:39:11,034 - DEBUG - Loading label from: artifacts/raw\Labels\138.txt
+2025-06-03 03:39:11,035 - INFO - Successfully processed item 43
+2025-06-03 03:39:11,035 - INFO - Processing item at index: 330
+2025-06-03 03:39:11,035 - DEBUG - Loading image from: artifacts/raw\Images\97.jpeg
+2025-06-03 03:39:11,035 - DEBUG - Loading label from: artifacts/raw\Labels\97.txt
+2025-06-03 03:39:11,036 - INFO - Successfully processed item 330
+2025-06-03 03:39:11,036 - INFO - Processing item at index: 303
+2025-06-03 03:39:11,036 - DEBUG - Loading image from: artifacts/raw\Images\72.jpeg
+2025-06-03 03:39:11,036 - DEBUG - Loading label from: artifacts/raw\Labels\72.txt
+2025-06-03 03:39:11,037 - INFO - Successfully processed item 303
+2025-06-03 03:39:11,766 - DEBUG - Step [37/67] - Loss: 0.1625
+2025-06-03 03:39:11,767 - INFO - Processing item at index: 33
+2025-06-03 03:39:11,767 - DEBUG - Loading image from: artifacts/raw\Images\129.jpeg
+2025-06-03 03:39:11,767 - DEBUG - Loading label from: artifacts/raw\Labels\129.txt
+2025-06-03 03:39:11,768 - INFO - Successfully processed item 33
+2025-06-03 03:39:11,768 - INFO - Processing item at index: 210
+2025-06-03 03:39:11,768 - DEBUG - Loading image from: artifacts/raw\Images\289.jpeg
+2025-06-03 03:39:11,768 - DEBUG - Loading label from: artifacts/raw\Labels\289.txt
+2025-06-03 03:39:11,769 - INFO - Successfully processed item 210
+2025-06-03 03:39:11,769 - INFO - Processing item at index: 213
+2025-06-03 03:39:11,769 - DEBUG - Loading image from: artifacts/raw\Images\291.jpeg
+2025-06-03 03:39:11,769 - DEBUG - Loading label from: artifacts/raw\Labels\291.txt
+2025-06-03 03:39:11,770 - INFO - Successfully processed item 213
+2025-06-03 03:39:11,770 - INFO - Processing item at index: 56
+2025-06-03 03:39:11,770 - DEBUG - Loading image from: artifacts/raw\Images\15.jpeg
+2025-06-03 03:39:11,770 - DEBUG - Loading label from: artifacts/raw\Labels\15.txt
+2025-06-03 03:39:11,771 - INFO - Successfully processed item 56
+2025-06-03 03:39:12,466 - DEBUG - Step [38/67] - Loss: 0.1195
+2025-06-03 03:39:12,466 - INFO - Processing item at index: 208
+2025-06-03 03:39:12,466 - DEBUG - Loading image from: artifacts/raw\Images\287.jpeg
+2025-06-03 03:39:12,468 - DEBUG - Loading label from: artifacts/raw\Labels\287.txt
+2025-06-03 03:39:12,468 - INFO - Successfully processed item 208
+2025-06-03 03:39:12,469 - INFO - Processing item at index: 99
+2025-06-03 03:39:12,469 - DEBUG - Loading image from: artifacts/raw\Images\189.jpeg
+2025-06-03 03:39:12,469 - DEBUG - Loading label from: artifacts/raw\Labels\189.txt
+2025-06-03 03:39:12,469 - INFO - Successfully processed item 99
+2025-06-03 03:39:12,469 - INFO - Processing item at index: 230
+2025-06-03 03:39:12,469 - DEBUG - Loading image from: artifacts/raw\Images\306.jpeg
+2025-06-03 03:39:12,469 - DEBUG - Loading label from: artifacts/raw\Labels\306.txt
+2025-06-03 03:39:12,470 - INFO - Successfully processed item 230
+2025-06-03 03:39:12,470 - INFO - Processing item at index: 48
+2025-06-03 03:39:12,470 - DEBUG - Loading image from: artifacts/raw\Images\142.jpeg
+2025-06-03 03:39:12,470 - DEBUG - Loading label from: artifacts/raw\Labels\142.txt
+2025-06-03 03:39:12,471 - INFO - Successfully processed item 48
+2025-06-03 03:39:13,202 - DEBUG - Step [39/67] - Loss: 0.3211
+2025-06-03 03:39:13,203 - INFO - Processing item at index: 97
+2025-06-03 03:39:13,203 - DEBUG - Loading image from: artifacts/raw\Images\187.jpeg
+2025-06-03 03:39:13,204 - DEBUG - Loading label from: artifacts/raw\Labels\187.txt
+2025-06-03 03:39:13,205 - INFO - Successfully processed item 97
+2025-06-03 03:39:13,205 - INFO - Processing item at index: 247
+2025-06-03 03:39:13,205 - DEBUG - Loading image from: artifacts/raw\Images\321.jpeg
+2025-06-03 03:39:13,206 - DEBUG - Loading label from: artifacts/raw\Labels\321.txt
+2025-06-03 03:39:13,206 - INFO - Successfully processed item 247
+2025-06-03 03:39:13,207 - INFO - Processing item at index: 143
+2025-06-03 03:39:13,207 - DEBUG - Loading image from: artifacts/raw\Images\228.jpeg
+2025-06-03 03:39:13,207 - DEBUG - Loading label from: artifacts/raw\Labels\228.txt
+2025-06-03 03:39:13,208 - INFO - Successfully processed item 143
+2025-06-03 03:39:13,208 - INFO - Processing item at index: 127
+2025-06-03 03:39:13,208 - DEBUG - Loading image from: artifacts/raw\Images\213.jpeg
+2025-06-03 03:39:13,208 - DEBUG - Loading label from: artifacts/raw\Labels\213.txt
+2025-06-03 03:39:13,209 - INFO - Successfully processed item 127
+2025-06-03 03:39:13,947 - DEBUG - Step [40/67] - Loss: 0.2179
+2025-06-03 03:39:13,947 - INFO - Processing item at index: 298
+2025-06-03 03:39:13,947 - DEBUG - Loading image from: artifacts/raw\Images\68.jpeg
+2025-06-03 03:39:13,948 - DEBUG - Loading label from: artifacts/raw\Labels\68.txt
+2025-06-03 03:39:13,948 - INFO - Successfully processed item 298
+2025-06-03 03:39:13,949 - INFO - Processing item at index: 91
+2025-06-03 03:39:13,949 - DEBUG - Loading image from: artifacts/raw\Images\181.jpeg
+2025-06-03 03:39:13,949 - DEBUG - Loading label from: artifacts/raw\Labels\181.txt
+2025-06-03 03:39:13,950 - INFO - Successfully processed item 91
+2025-06-03 03:39:13,950 - INFO - Processing item at index: 52
+2025-06-03 03:39:13,950 - DEBUG - Loading image from: artifacts/raw\Images\146.jpeg
+2025-06-03 03:39:13,950 - DEBUG - Loading label from: artifacts/raw\Labels\146.txt
+2025-06-03 03:39:13,951 - INFO - Successfully processed item 52
+2025-06-03 03:39:13,951 - INFO - Processing item at index: 256
+2025-06-03 03:39:13,951 - DEBUG - Loading image from: artifacts/raw\Images\33.jpeg
+2025-06-03 03:39:13,951 - DEBUG - Loading label from: artifacts/raw\Labels\33.txt
+2025-06-03 03:39:13,951 - INFO - Successfully processed item 256
+2025-06-03 03:39:14,683 - DEBUG - Step [41/67] - Loss: 0.2124
+2025-06-03 03:39:14,683 - INFO - Processing item at index: 222
+2025-06-03 03:39:14,683 - DEBUG - Loading image from: artifacts/raw\Images\3.jpeg
+2025-06-03 03:39:14,684 - DEBUG - Loading label from: artifacts/raw\Labels\3.txt
+2025-06-03 03:39:14,685 - INFO - Successfully processed item 222
+2025-06-03 03:39:14,685 - INFO - Processing item at index: 135
+2025-06-03 03:39:14,685 - DEBUG - Loading image from: artifacts/raw\Images\220.jpeg
+2025-06-03 03:39:14,685 - DEBUG - Loading label from: artifacts/raw\Labels\220.txt
+2025-06-03 03:39:14,686 - INFO - Successfully processed item 135
+2025-06-03 03:39:14,686 - INFO - Processing item at index: 255
+2025-06-03 03:39:14,686 - DEBUG - Loading image from: artifacts/raw\Images\329.jpeg
+2025-06-03 03:39:14,686 - DEBUG - Loading label from: artifacts/raw\Labels\329.txt
+2025-06-03 03:39:14,687 - INFO - Successfully processed item 255
+2025-06-03 03:39:14,687 - INFO - Processing item at index: 321
+2025-06-03 03:39:14,687 - DEBUG - Loading image from: artifacts/raw\Images\89.jpeg
+2025-06-03 03:39:14,687 - DEBUG - Loading label from: artifacts/raw\Labels\89.txt
+2025-06-03 03:39:14,688 - INFO - Successfully processed item 321
+2025-06-03 03:39:15,462 - DEBUG - Step [42/67] - Loss: 0.2534
+2025-06-03 03:39:15,462 - INFO - Processing item at index: 144
+2025-06-03 03:39:15,462 - DEBUG - Loading image from: artifacts/raw\Images\229.jpeg
+2025-06-03 03:39:15,463 - DEBUG - Loading label from: artifacts/raw\Labels\229.txt
+2025-06-03 03:39:15,463 - INFO - Successfully processed item 144
+2025-06-03 03:39:15,463 - INFO - Processing item at index: 112
+2025-06-03 03:39:15,463 - DEBUG - Loading image from: artifacts/raw\Images\20.jpeg
+2025-06-03 03:39:15,464 - DEBUG - Loading label from: artifacts/raw\Labels\20.txt
+2025-06-03 03:39:15,464 - INFO - Successfully processed item 112
+2025-06-03 03:39:15,464 - INFO - Processing item at index: 83
+2025-06-03 03:39:15,464 - DEBUG - Loading image from: artifacts/raw\Images\174.jpeg
+2025-06-03 03:39:15,465 - DEBUG - Loading label from: artifacts/raw\Labels\174.txt
+2025-06-03 03:39:15,465 - INFO - Successfully processed item 83
+2025-06-03 03:39:15,465 - INFO - Processing item at index: 132
+2025-06-03 03:39:15,465 - DEBUG - Loading image from: artifacts/raw\Images\218.jpeg
+2025-06-03 03:39:15,465 - DEBUG - Loading label from: artifacts/raw\Labels\218.txt
+2025-06-03 03:39:15,466 - INFO - Successfully processed item 132
+2025-06-03 03:39:20,821 - DEBUG - Step [43/67] - Loss: 0.2799
+2025-06-03 03:39:20,822 - INFO - Processing item at index: 262
+2025-06-03 03:39:20,822 - DEBUG - Loading image from: artifacts/raw\Images\35.jpeg
+2025-06-03 03:39:20,823 - DEBUG - Loading label from: artifacts/raw\Labels\35.txt
+2025-06-03 03:39:20,823 - INFO - Successfully processed item 262
+2025-06-03 03:39:20,823 - INFO - Processing item at index: 186
+2025-06-03 03:39:20,823 - DEBUG - Loading image from: artifacts/raw\Images\267.jpeg
+2025-06-03 03:39:20,824 - DEBUG - Loading label from: artifacts/raw\Labels\267.txt
+2025-06-03 03:39:20,824 - INFO - Successfully processed item 186
+2025-06-03 03:39:20,824 - INFO - Processing item at index: 147
+2025-06-03 03:39:20,824 - DEBUG - Loading image from: artifacts/raw\Images\231.jpeg
+2025-06-03 03:39:20,825 - DEBUG - Loading label from: artifacts/raw\Labels\231.txt
+2025-06-03 03:39:20,825 - INFO - Successfully processed item 147
+2025-06-03 03:39:20,825 - INFO - Processing item at index: 297
+2025-06-03 03:39:20,825 - DEBUG - Loading image from: artifacts/raw\Images\67.jpeg
+2025-06-03 03:39:20,826 - DEBUG - Loading label from: artifacts/raw\Labels\67.txt
+2025-06-03 03:39:20,826 - INFO - Successfully processed item 297
+2025-06-03 03:39:28,161 - DEBUG - Step [44/67] - Loss: 0.1762
+2025-06-03 03:39:28,162 - INFO - Processing item at index: 299
+2025-06-03 03:39:28,162 - DEBUG - Loading image from: artifacts/raw\Images\69.jpeg
+2025-06-03 03:39:28,163 - DEBUG - Loading label from: artifacts/raw\Labels\69.txt
+2025-06-03 03:39:28,164 - INFO - Successfully processed item 299
+2025-06-03 03:39:28,164 - INFO - Processing item at index: 114
+2025-06-03 03:39:28,164 - DEBUG - Loading image from: artifacts/raw\Images\201.jpeg
+2025-06-03 03:39:28,164 - DEBUG - Loading label from: artifacts/raw\Labels\201.txt
+2025-06-03 03:39:28,165 - INFO - Successfully processed item 114
+2025-06-03 03:39:28,165 - INFO - Processing item at index: 244
+2025-06-03 03:39:28,165 - DEBUG - Loading image from: artifacts/raw\Images\319.jpeg
+2025-06-03 03:39:28,166 - DEBUG - Loading label from: artifacts/raw\Labels\319.txt
+2025-06-03 03:39:28,166 - INFO - Successfully processed item 244
+2025-06-03 03:39:28,166 - INFO - Processing item at index: 29
+2025-06-03 03:39:28,166 - DEBUG - Loading image from: artifacts/raw\Images\125.jpeg
+2025-06-03 03:39:28,166 - DEBUG - Loading label from: artifacts/raw\Labels\125.txt
+2025-06-03 03:39:28,167 - INFO - Successfully processed item 29
+2025-06-03 03:39:28,905 - DEBUG - Step [45/67] - Loss: 0.2186
+2025-06-03 03:39:28,905 - INFO - Processing item at index: 55
+2025-06-03 03:39:28,905 - DEBUG - Loading image from: artifacts/raw\Images\149.jpeg
+2025-06-03 03:39:28,906 - DEBUG - Loading label from: artifacts/raw\Labels\149.txt
+2025-06-03 03:39:28,907 - INFO - Successfully processed item 55
+2025-06-03 03:39:28,907 - INFO - Processing item at index: 85
+2025-06-03 03:39:28,907 - DEBUG - Loading image from: artifacts/raw\Images\176.jpeg
+2025-06-03 03:39:28,907 - DEBUG - Loading label from: artifacts/raw\Labels\176.txt
+2025-06-03 03:39:28,908 - INFO - Successfully processed item 85
+2025-06-03 03:39:28,908 - INFO - Processing item at index: 58
+2025-06-03 03:39:28,908 - DEBUG - Loading image from: artifacts/raw\Images\151.jpeg
+2025-06-03 03:39:28,908 - DEBUG - Loading label from: artifacts/raw\Labels\151.txt
+2025-06-03 03:39:28,909 - INFO - Successfully processed item 58
+2025-06-03 03:39:28,909 - INFO - Processing item at index: 100
+2025-06-03 03:39:28,909 - DEBUG - Loading image from: artifacts/raw\Images\19.jpeg
+2025-06-03 03:39:28,909 - DEBUG - Loading label from: artifacts/raw\Labels\19.txt
+2025-06-03 03:39:28,909 - INFO - Successfully processed item 100
+2025-06-03 03:39:33,419 - DEBUG - Step [46/67] - Loss: 0.1971
+2025-06-03 03:39:33,420 - INFO - Processing item at index: 168
+2025-06-03 03:39:33,420 - DEBUG - Loading image from: artifacts/raw\Images\250.jpeg
+2025-06-03 03:39:33,420 - DEBUG - Loading label from: artifacts/raw\Labels\250.txt
+2025-06-03 03:39:33,422 - INFO - Successfully processed item 168
+2025-06-03 03:39:33,422 - INFO - Processing item at index: 276
+2025-06-03 03:39:33,422 - DEBUG - Loading image from: artifacts/raw\Images\48.jpeg
+2025-06-03 03:39:33,422 - DEBUG - Loading label from: artifacts/raw\Labels\48.txt
+2025-06-03 03:39:33,423 - INFO - Successfully processed item 276
+2025-06-03 03:39:33,423 - INFO - Processing item at index: 126
+2025-06-03 03:39:33,423 - DEBUG - Loading image from: artifacts/raw\Images\212.jpeg
+2025-06-03 03:39:33,423 - DEBUG - Loading label from: artifacts/raw\Labels\212.txt
+2025-06-03 03:39:33,423 - INFO - Successfully processed item 126
+2025-06-03 03:39:33,423 - INFO - Processing item at index: 202
+2025-06-03 03:39:33,423 - DEBUG - Loading image from: artifacts/raw\Images\281.jpeg
+2025-06-03 03:39:33,424 - DEBUG - Loading label from: artifacts/raw\Labels\281.txt
+2025-06-03 03:39:33,424 - INFO - Successfully processed item 202
+2025-06-03 03:39:41,266 - DEBUG - Step [47/67] - Loss: 0.2296
+2025-06-03 03:39:41,267 - INFO - Processing item at index: 98
+2025-06-03 03:39:41,267 - DEBUG - Loading image from: artifacts/raw\Images\188.jpeg
+2025-06-03 03:39:41,268 - DEBUG - Loading label from: artifacts/raw\Labels\188.txt
+2025-06-03 03:39:41,268 - INFO - Successfully processed item 98
+2025-06-03 03:39:41,269 - INFO - Processing item at index: 239
+2025-06-03 03:39:41,269 - DEBUG - Loading image from: artifacts/raw\Images\314.jpeg
+2025-06-03 03:39:41,269 - DEBUG - Loading label from: artifacts/raw\Labels\314.txt
+2025-06-03 03:39:41,270 - INFO - Successfully processed item 239
+2025-06-03 03:39:41,270 - INFO - Processing item at index: 320
+2025-06-03 03:39:41,270 - DEBUG - Loading image from: artifacts/raw\Images\88.jpeg
+2025-06-03 03:39:41,270 - DEBUG - Loading label from: artifacts/raw\Labels\88.txt
+2025-06-03 03:39:41,271 - INFO - Successfully processed item 320
+2025-06-03 03:39:41,271 - INFO - Processing item at index: 228
+2025-06-03 03:39:41,271 - DEBUG - Loading image from: artifacts/raw\Images\304.jpeg
+2025-06-03 03:39:41,271 - DEBUG - Loading label from: artifacts/raw\Labels\304.txt
+2025-06-03 03:39:41,272 - INFO - Successfully processed item 228
+2025-06-03 03:39:42,009 - DEBUG - Step [48/67] - Loss: 0.1431
+2025-06-03 03:39:42,010 - INFO - Processing item at index: 4
+2025-06-03 03:39:42,010 - DEBUG - Loading image from: artifacts/raw\Images\102.jpeg
+2025-06-03 03:39:42,010 - DEBUG - Loading label from: artifacts/raw\Labels\102.txt
+2025-06-03 03:39:42,011 - INFO - Successfully processed item 4
+2025-06-03 03:39:42,011 - INFO - Processing item at index: 68
+2025-06-03 03:39:42,011 - DEBUG - Loading image from: artifacts/raw\Images\160.jpeg
+2025-06-03 03:39:42,011 - DEBUG - Loading label from: artifacts/raw\Labels\160.txt
+2025-06-03 03:39:42,012 - INFO - Successfully processed item 68
+2025-06-03 03:39:42,012 - INFO - Processing item at index: 113
+2025-06-03 03:39:42,012 - DEBUG - Loading image from: artifacts/raw\Images\200.jpeg
+2025-06-03 03:39:42,012 - DEBUG - Loading label from: artifacts/raw\Labels\200.txt
+2025-06-03 03:39:42,013 - INFO - Successfully processed item 113
+2025-06-03 03:39:42,013 - INFO - Processing item at index: 245
+2025-06-03 03:39:42,013 - DEBUG - Loading image from: artifacts/raw\Images\32.jpeg
+2025-06-03 03:39:42,014 - DEBUG - Loading label from: artifacts/raw\Labels\32.txt
+2025-06-03 03:39:42,014 - INFO - Successfully processed item 245
+2025-06-03 03:39:47,369 - DEBUG - Step [49/67] - Loss: 0.2030
+2025-06-03 03:39:47,369 - INFO - Processing item at index: 178
+2025-06-03 03:39:47,369 - DEBUG - Loading image from: artifacts/raw\Images\26.jpeg
+2025-06-03 03:39:47,370 - DEBUG - Loading label from: artifacts/raw\Labels\26.txt
+2025-06-03 03:39:47,371 - INFO - Successfully processed item 178
+2025-06-03 03:39:47,371 - INFO - Processing item at index: 283
+2025-06-03 03:39:47,371 - DEBUG - Loading image from: artifacts/raw\Images\54.jpeg
+2025-06-03 03:39:47,372 - DEBUG - Loading label from: artifacts/raw\Labels\54.txt
+2025-06-03 03:39:47,372 - INFO - Successfully processed item 283
+2025-06-03 03:39:47,372 - INFO - Processing item at index: 187
+2025-06-03 03:39:47,372 - DEBUG - Loading image from: artifacts/raw\Images\268.jpeg
+2025-06-03 03:39:47,373 - DEBUG - Loading label from: artifacts/raw\Labels\268.txt
+2025-06-03 03:39:47,373 - INFO - Successfully processed item 187
+2025-06-03 03:39:47,373 - INFO - Processing item at index: 189
+2025-06-03 03:39:47,373 - DEBUG - Loading image from: artifacts/raw\Images\27.jpeg
+2025-06-03 03:39:47,374 - DEBUG - Loading label from: artifacts/raw\Labels\27.txt
+2025-06-03 03:39:47,374 - INFO - Successfully processed item 189
+2025-06-03 03:39:48,112 - DEBUG - Step [50/67] - Loss: 0.2430
+2025-06-03 03:39:48,112 - INFO - Processing item at index: 293
+2025-06-03 03:39:48,112 - DEBUG - Loading image from: artifacts/raw\Images\63.jpeg
+2025-06-03 03:39:48,113 - DEBUG - Loading label from: artifacts/raw\Labels\63.txt
+2025-06-03 03:39:48,113 - INFO - Successfully processed item 293
+2025-06-03 03:39:48,113 - INFO - Processing item at index: 274
+2025-06-03 03:39:48,113 - DEBUG - Loading image from: artifacts/raw\Images\46.jpeg
+2025-06-03 03:39:48,114 - DEBUG - Loading label from: artifacts/raw\Labels\46.txt
+2025-06-03 03:39:48,114 - INFO - Successfully processed item 274
+2025-06-03 03:39:48,114 - INFO - Processing item at index: 215
+2025-06-03 03:39:48,114 - DEBUG - Loading image from: artifacts/raw\Images\293.jpeg
+2025-06-03 03:39:48,114 - DEBUG - Loading label from: artifacts/raw\Labels\293.txt
+2025-06-03 03:39:48,115 - INFO - Successfully processed item 215
+2025-06-03 03:39:48,115 - INFO - Processing item at index: 254
+2025-06-03 03:39:48,115 - DEBUG - Loading image from: artifacts/raw\Images\328.jpeg
+2025-06-03 03:39:48,115 - DEBUG - Loading label from: artifacts/raw\Labels\328.txt
+2025-06-03 03:39:48,116 - INFO - Successfully processed item 254
+2025-06-03 03:39:56,309 - DEBUG - Step [51/67] - Loss: 0.1497
+2025-06-03 03:39:56,309 - INFO - Processing item at index: 156
+2025-06-03 03:39:56,309 - DEBUG - Loading image from: artifacts/raw\Images\24.jpeg
+2025-06-03 03:39:56,310 - DEBUG - Loading label from: artifacts/raw\Labels\24.txt
+2025-06-03 03:39:56,311 - INFO - Successfully processed item 156
+2025-06-03 03:39:56,311 - INFO - Processing item at index: 272
+2025-06-03 03:39:56,311 - DEBUG - Loading image from: artifacts/raw\Images\44.jpeg
+2025-06-03 03:39:56,312 - DEBUG - Loading label from: artifacts/raw\Labels\44.txt
+2025-06-03 03:39:56,313 - INFO - Successfully processed item 272
+2025-06-03 03:39:56,313 - INFO - Processing item at index: 13
+2025-06-03 03:39:56,313 - DEBUG - Loading image from: artifacts/raw\Images\110.jpeg
+2025-06-03 03:39:56,314 - DEBUG - Loading label from: artifacts/raw\Labels\110.txt
+2025-06-03 03:39:56,314 - INFO - Successfully processed item 13
+2025-06-03 03:39:56,314 - INFO - Processing item at index: 141
+2025-06-03 03:39:56,314 - DEBUG - Loading image from: artifacts/raw\Images\226.jpeg
+2025-06-03 03:39:56,315 - DEBUG - Loading label from: artifacts/raw\Labels\226.txt
+2025-06-03 03:39:56,315 - INFO - Successfully processed item 141
+2025-06-03 03:40:03,908 - DEBUG - Step [52/67] - Loss: 0.2884
+2025-06-03 03:40:03,908 - INFO - Processing item at index: 234
+2025-06-03 03:40:03,908 - DEBUG - Loading image from: artifacts/raw\Images\31.jpeg
+2025-06-03 03:40:03,909 - DEBUG - Loading label from: artifacts/raw\Labels\31.txt
+2025-06-03 03:40:03,910 - INFO - Successfully processed item 234
+2025-06-03 03:40:03,910 - INFO - Processing item at index: 86
+2025-06-03 03:40:03,910 - DEBUG - Loading image from: artifacts/raw\Images\177.jpeg
+2025-06-03 03:40:03,910 - DEBUG - Loading label from: artifacts/raw\Labels\177.txt
+2025-06-03 03:40:03,911 - INFO - Successfully processed item 86
+2025-06-03 03:40:03,911 - INFO - Processing item at index: 306
+2025-06-03 03:40:03,911 - DEBUG - Loading image from: artifacts/raw\Images\75.jpeg
+2025-06-03 03:40:03,912 - DEBUG - Loading label from: artifacts/raw\Labels\75.txt
+2025-06-03 03:40:03,912 - INFO - Successfully processed item 306
+2025-06-03 03:40:03,912 - INFO - Processing item at index: 273
+2025-06-03 03:40:03,912 - DEBUG - Loading image from: artifacts/raw\Images\45.jpeg
+2025-06-03 03:40:03,913 - DEBUG - Loading label from: artifacts/raw\Labels\45.txt
+2025-06-03 03:40:03,913 - INFO - Successfully processed item 273
+2025-06-03 03:40:04,646 - DEBUG - Step [53/67] - Loss: 0.1192
+2025-06-03 03:40:04,646 - INFO - Processing item at index: 300
+2025-06-03 03:40:04,646 - DEBUG - Loading image from: artifacts/raw\Images\7.jpeg
+2025-06-03 03:40:04,647 - DEBUG - Loading label from: artifacts/raw\Labels\7.txt
+2025-06-03 03:40:04,648 - INFO - Successfully processed item 300
+2025-06-03 03:40:04,648 - INFO - Processing item at index: 6
+2025-06-03 03:40:04,648 - DEBUG - Loading image from: artifacts/raw\Images\104.jpeg
+2025-06-03 03:40:04,648 - DEBUG - Loading label from: artifacts/raw\Labels\104.txt
+2025-06-03 03:40:04,649 - INFO - Successfully processed item 6
+2025-06-03 03:40:04,649 - INFO - Processing item at index: 207
+2025-06-03 03:40:04,649 - DEBUG - Loading image from: artifacts/raw\Images\286.jpeg
+2025-06-03 03:40:04,649 - DEBUG - Loading label from: artifacts/raw\Labels\286.txt
+2025-06-03 03:40:04,650 - INFO - Successfully processed item 207
+2025-06-03 03:40:04,650 - INFO - Processing item at index: 96
+2025-06-03 03:40:04,650 - DEBUG - Loading image from: artifacts/raw\Images\186.jpeg
+2025-06-03 03:40:04,650 - DEBUG - Loading label from: artifacts/raw\Labels\186.txt
+2025-06-03 03:40:04,650 - INFO - Successfully processed item 96
+2025-06-03 03:40:05,382 - DEBUG - Step [54/67] - Loss: 0.2708
+2025-06-03 03:40:05,382 - INFO - Processing item at index: 214
+2025-06-03 03:40:05,382 - DEBUG - Loading image from: artifacts/raw\Images\292.jpeg
+2025-06-03 03:40:05,384 - DEBUG - Loading label from: artifacts/raw\Labels\292.txt
+2025-06-03 03:40:05,384 - INFO - Successfully processed item 214
+2025-06-03 03:40:05,384 - INFO - Processing item at index: 331
+2025-06-03 03:40:05,384 - DEBUG - Loading image from: artifacts/raw\Images\98.jpeg
+2025-06-03 03:40:05,385 - DEBUG - Loading label from: artifacts/raw\Labels\98.txt
+2025-06-03 03:40:05,385 - INFO - Successfully processed item 331
+2025-06-03 03:40:05,385 - INFO - Processing item at index: 268
+2025-06-03 03:40:05,385 - DEBUG - Loading image from: artifacts/raw\Images\40.jpeg
+2025-06-03 03:40:05,386 - DEBUG - Loading label from: artifacts/raw\Labels\40.txt
+2025-06-03 03:40:05,386 - INFO - Successfully processed item 268
+2025-06-03 03:40:05,386 - INFO - Processing item at index: 248
+2025-06-03 03:40:05,387 - DEBUG - Loading image from: artifacts/raw\Images\322.jpeg
+2025-06-03 03:40:05,387 - DEBUG - Loading label from: artifacts/raw\Labels\322.txt
+2025-06-03 03:40:05,388 - INFO - Successfully processed item 248
+2025-06-03 03:40:06,132 - DEBUG - Step [55/67] - Loss: 0.1500
+2025-06-03 03:40:06,132 - INFO - Processing item at index: 319
+2025-06-03 03:40:06,132 - DEBUG - Loading image from: artifacts/raw\Images\87.jpeg
+2025-06-03 03:40:06,133 - DEBUG - Loading label from: artifacts/raw\Labels\87.txt
+2025-06-03 03:40:06,134 - INFO - Successfully processed item 319
+2025-06-03 03:40:06,134 - INFO - Processing item at index: 75
+2025-06-03 03:40:06,134 - DEBUG - Loading image from: artifacts/raw\Images\167.jpeg
+2025-06-03 03:40:06,134 - DEBUG - Loading label from: artifacts/raw\Labels\167.txt
+2025-06-03 03:40:06,135 - INFO - Successfully processed item 75
+2025-06-03 03:40:06,135 - INFO - Processing item at index: 232
+2025-06-03 03:40:06,135 - DEBUG - Loading image from: artifacts/raw\Images\308.jpeg
+2025-06-03 03:40:06,135 - DEBUG - Loading label from: artifacts/raw\Labels\308.txt
+2025-06-03 03:40:06,136 - INFO - Successfully processed item 232
+2025-06-03 03:40:06,136 - INFO - Processing item at index: 308
+2025-06-03 03:40:06,136 - DEBUG - Loading image from: artifacts/raw\Images\77.jpeg
+2025-06-03 03:40:06,136 - DEBUG - Loading label from: artifacts/raw\Labels\77.txt
+2025-06-03 03:40:06,137 - INFO - Successfully processed item 308
+2025-06-03 03:40:06,882 - DEBUG - Step [56/67] - Loss: 0.2636
+2025-06-03 03:40:06,883 - INFO - Processing item at index: 191
+2025-06-03 03:40:06,883 - DEBUG - Loading image from: artifacts/raw\Images\271.jpeg
+2025-06-03 03:40:06,884 - DEBUG - Loading label from: artifacts/raw\Labels\271.txt
+2025-06-03 03:40:06,885 - INFO - Successfully processed item 191
+2025-06-03 03:40:06,885 - INFO - Processing item at index: 17
+2025-06-03 03:40:06,885 - DEBUG - Loading image from: artifacts/raw\Images\114.jpeg
+2025-06-03 03:40:06,887 - DEBUG - Loading label from: artifacts/raw\Labels\114.txt
+2025-06-03 03:40:06,888 - INFO - Successfully processed item 17
+2025-06-03 03:40:06,888 - INFO - Processing item at index: 116
+2025-06-03 03:40:06,888 - DEBUG - Loading image from: artifacts/raw\Images\203.jpeg
+2025-06-03 03:40:06,889 - DEBUG - Loading label from: artifacts/raw\Labels\203.txt
+2025-06-03 03:40:06,889 - INFO - Successfully processed item 116
+2025-06-03 03:40:06,889 - INFO - Processing item at index: 134
+2025-06-03 03:40:06,889 - DEBUG - Loading image from: artifacts/raw\Images\22.jpeg
+2025-06-03 03:40:06,890 - DEBUG - Loading label from: artifacts/raw\Labels\22.txt
+2025-06-03 03:40:06,890 - INFO - Successfully processed item 134
+2025-06-03 03:40:14,891 - DEBUG - Step [57/67] - Loss: 0.2583
+2025-06-03 03:40:14,891 - INFO - Processing item at index: 323
+2025-06-03 03:40:14,892 - DEBUG - Loading image from: artifacts/raw\Images\90.jpeg
+2025-06-03 03:40:14,892 - DEBUG - Loading label from: artifacts/raw\Labels\90.txt
+2025-06-03 03:40:14,893 - INFO - Successfully processed item 323
+2025-06-03 03:40:14,893 - INFO - Processing item at index: 73
+2025-06-03 03:40:14,893 - DEBUG - Loading image from: artifacts/raw\Images\165.jpeg
+2025-06-03 03:40:14,894 - DEBUG - Loading label from: artifacts/raw\Labels\165.txt
+2025-06-03 03:40:14,894 - INFO - Successfully processed item 73
+2025-06-03 03:40:14,894 - INFO - Processing item at index: 117
+2025-06-03 03:40:14,894 - DEBUG - Loading image from: artifacts/raw\Images\204.jpeg
+2025-06-03 03:40:14,895 - DEBUG - Loading label from: artifacts/raw\Labels\204.txt
+2025-06-03 03:40:14,895 - INFO - Successfully processed item 117
+2025-06-03 03:40:14,895 - INFO - Processing item at index: 35
+2025-06-03 03:40:14,895 - DEBUG - Loading image from: artifacts/raw\Images\130.jpeg
+2025-06-03 03:40:14,896 - DEBUG - Loading label from: artifacts/raw\Labels\130.txt
+2025-06-03 03:40:14,896 - INFO - Successfully processed item 35
+2025-06-03 03:40:22,594 - DEBUG - Step [58/67] - Loss: 0.2915
+2025-06-03 03:40:22,595 - INFO - Processing item at index: 145
+2025-06-03 03:40:22,595 - DEBUG - Loading image from: artifacts/raw\Images\23.jpeg
+2025-06-03 03:40:22,596 - DEBUG - Loading label from: artifacts/raw\Labels\23.txt
+2025-06-03 03:40:22,596 - INFO - Successfully processed item 145
+2025-06-03 03:40:22,596 - INFO - Processing item at index: 211
+2025-06-03 03:40:22,596 - DEBUG - Loading image from: artifacts/raw\Images\29.jpeg
+2025-06-03 03:40:22,597 - DEBUG - Loading label from: artifacts/raw\Labels\29.txt
+2025-06-03 03:40:22,597 - INFO - Successfully processed item 211
+2025-06-03 03:40:22,597 - INFO - Processing item at index: 318
+2025-06-03 03:40:22,597 - DEBUG - Loading image from: artifacts/raw\Images\86.jpeg
+2025-06-03 03:40:22,598 - DEBUG - Loading label from: artifacts/raw\Labels\86.txt
+2025-06-03 03:40:22,598 - INFO - Successfully processed item 318
+2025-06-03 03:40:22,598 - INFO - Processing item at index: 194
+2025-06-03 03:40:22,598 - DEBUG - Loading image from: artifacts/raw\Images\274.jpeg
+2025-06-03 03:40:22,599 - DEBUG - Loading label from: artifacts/raw\Labels\274.txt
+2025-06-03 03:40:22,599 - INFO - Successfully processed item 194
+2025-06-03 03:40:23,367 - DEBUG - Step [59/67] - Loss: 0.1486
+2025-06-03 03:40:23,367 - INFO - Processing item at index: 118
+2025-06-03 03:40:23,367 - DEBUG - Loading image from: artifacts/raw\Images\205.jpeg
+2025-06-03 03:40:23,368 - DEBUG - Loading label from: artifacts/raw\Labels\205.txt
+2025-06-03 03:40:23,369 - INFO - Successfully processed item 118
+2025-06-03 03:40:23,369 - INFO - Processing item at index: 34
+2025-06-03 03:40:23,369 - DEBUG - Loading image from: artifacts/raw\Images\13.jpeg
+2025-06-03 03:40:23,369 - DEBUG - Loading label from: artifacts/raw\Labels\13.txt
+2025-06-03 03:40:23,370 - INFO - Successfully processed item 34
+2025-06-03 03:40:23,370 - INFO - Processing item at index: 45
+2025-06-03 03:40:23,370 - DEBUG - Loading image from: artifacts/raw\Images\14.jpeg
+2025-06-03 03:40:23,370 - DEBUG - Loading label from: artifacts/raw\Labels\14.txt
+2025-06-03 03:40:23,371 - INFO - Successfully processed item 45
+2025-06-03 03:40:23,371 - INFO - Processing item at index: 221
+2025-06-03 03:40:23,371 - DEBUG - Loading image from: artifacts/raw\Images\299.jpeg
+2025-06-03 03:40:23,371 - DEBUG - Loading label from: artifacts/raw\Labels\299.txt
+2025-06-03 03:40:23,372 - INFO - Successfully processed item 221
+2025-06-03 03:40:30,988 - DEBUG - Step [60/67] - Loss: 0.2380
+2025-06-03 03:40:30,989 - INFO - Processing item at index: 22
+2025-06-03 03:40:30,989 - DEBUG - Loading image from: artifacts/raw\Images\119.jpeg
+2025-06-03 03:40:30,990 - DEBUG - Loading label from: artifacts/raw\Labels\119.txt
+2025-06-03 03:40:30,990 - INFO - Successfully processed item 22
+2025-06-03 03:40:30,990 - INFO - Processing item at index: 109
+2025-06-03 03:40:30,990 - DEBUG - Loading image from: artifacts/raw\Images\198.jpeg
+2025-06-03 03:40:30,991 - DEBUG - Loading label from: artifacts/raw\Labels\198.txt
+2025-06-03 03:40:30,991 - INFO - Successfully processed item 109
+2025-06-03 03:40:30,991 - INFO - Processing item at index: 218
+2025-06-03 03:40:30,991 - DEBUG - Loading image from: artifacts/raw\Images\296.jpeg
+2025-06-03 03:40:30,992 - DEBUG - Loading label from: artifacts/raw\Labels\296.txt
+2025-06-03 03:40:30,992 - INFO - Successfully processed item 218
+2025-06-03 03:40:30,992 - INFO - Processing item at index: 12
+2025-06-03 03:40:30,992 - DEBUG - Loading image from: artifacts/raw\Images\11.jpeg
+2025-06-03 03:40:30,993 - DEBUG - Loading label from: artifacts/raw\Labels\11.txt
+2025-06-03 03:40:30,993 - INFO - Successfully processed item 12
+2025-06-03 03:40:31,727 - DEBUG - Step [61/67] - Loss: 0.2144
+2025-06-03 03:40:31,729 - INFO - Processing item at index: 196
+2025-06-03 03:40:31,729 - DEBUG - Loading image from: artifacts/raw\Images\276.jpeg
+2025-06-03 03:40:31,729 - DEBUG - Loading label from: artifacts/raw\Labels\276.txt
+2025-06-03 03:40:31,730 - INFO - Successfully processed item 196
+2025-06-03 03:40:31,730 - INFO - Processing item at index: 224
+2025-06-03 03:40:31,730 - DEBUG - Loading image from: artifacts/raw\Images\300.jpeg
+2025-06-03 03:40:31,730 - DEBUG - Loading label from: artifacts/raw\Labels\300.txt
+2025-06-03 03:40:31,731 - INFO - Successfully processed item 224
+2025-06-03 03:40:31,731 - INFO - Processing item at index: 265
+2025-06-03 03:40:31,731 - DEBUG - Loading image from: artifacts/raw\Images\38.jpeg
+2025-06-03 03:40:31,731 - DEBUG - Loading label from: artifacts/raw\Labels\38.txt
+2025-06-03 03:40:31,732 - INFO - Successfully processed item 265
+2025-06-03 03:40:31,732 - INFO - Processing item at index: 76
+2025-06-03 03:40:31,732 - DEBUG - Loading image from: artifacts/raw\Images\168.jpeg
+2025-06-03 03:40:31,732 - DEBUG - Loading label from: artifacts/raw\Labels\168.txt
+2025-06-03 03:40:31,733 - INFO - Successfully processed item 76
+2025-06-03 03:40:32,468 - DEBUG - Step [62/67] - Loss: 0.1984
+2025-06-03 03:40:32,469 - INFO - Processing item at index: 10
+2025-06-03 03:40:32,469 - DEBUG - Loading image from: artifacts/raw\Images\108.jpeg
+2025-06-03 03:40:32,470 - DEBUG - Loading label from: artifacts/raw\Labels\108.txt
+2025-06-03 03:40:32,470 - INFO - Successfully processed item 10
+2025-06-03 03:40:32,470 - INFO - Processing item at index: 92
+2025-06-03 03:40:32,470 - DEBUG - Loading image from: artifacts/raw\Images\182.jpeg
+2025-06-03 03:40:32,471 - DEBUG - Loading label from: artifacts/raw\Labels\182.txt
+2025-06-03 03:40:32,471 - INFO - Successfully processed item 92
+2025-06-03 03:40:32,471 - INFO - Processing item at index: 82
+2025-06-03 03:40:32,471 - DEBUG - Loading image from: artifacts/raw\Images\173.jpeg
+2025-06-03 03:40:32,472 - DEBUG - Loading label from: artifacts/raw\Labels\173.txt
+2025-06-03 03:40:32,472 - INFO - Successfully processed item 82
+2025-06-03 03:40:32,472 - INFO - Processing item at index: 175
+2025-06-03 03:40:32,472 - DEBUG - Loading image from: artifacts/raw\Images\257.jpeg
+2025-06-03 03:40:32,472 - DEBUG - Loading label from: artifacts/raw\Labels\257.txt
+2025-06-03 03:40:32,473 - INFO - Successfully processed item 175
+2025-06-03 03:40:36,894 - DEBUG - Step [63/67] - Loss: 0.2076
+2025-06-03 03:40:36,894 - INFO - Processing item at index: 205
+2025-06-03 03:40:36,894 - DEBUG - Loading image from: artifacts/raw\Images\284.jpeg
+2025-06-03 03:40:36,895 - DEBUG - Loading label from: artifacts/raw\Labels\284.txt
+2025-06-03 03:40:36,896 - INFO - Successfully processed item 205
+2025-06-03 03:40:36,896 - INFO - Processing item at index: 313
+2025-06-03 03:40:36,896 - DEBUG - Loading image from: artifacts/raw\Images\81.jpeg
+2025-06-03 03:40:36,896 - DEBUG - Loading label from: artifacts/raw\Labels\81.txt
+2025-06-03 03:40:36,897 - INFO - Successfully processed item 313
+2025-06-03 03:40:36,897 - INFO - Processing item at index: 294
+2025-06-03 03:40:36,897 - DEBUG - Loading image from: artifacts/raw\Images\64.jpeg
+2025-06-03 03:40:36,897 - DEBUG - Loading label from: artifacts/raw\Labels\64.txt
+2025-06-03 03:40:36,898 - INFO - Successfully processed item 294
+2025-06-03 03:40:36,898 - INFO - Processing item at index: 267
+2025-06-03 03:40:36,898 - DEBUG - Loading image from: artifacts/raw\Images\4.jpeg
+2025-06-03 03:40:36,898 - DEBUG - Loading label from: artifacts/raw\Labels\4.txt
+2025-06-03 03:40:36,899 - INFO - Successfully processed item 267
+2025-06-03 03:40:44,635 - DEBUG - Step [64/67] - Loss: 0.1917
+2025-06-03 03:40:44,637 - INFO - Processing item at index: 157
+2025-06-03 03:40:44,637 - DEBUG - Loading image from: artifacts/raw\Images\240.jpeg
+2025-06-03 03:40:44,638 - DEBUG - Loading label from: artifacts/raw\Labels\240.txt
+2025-06-03 03:40:44,638 - INFO - Successfully processed item 157
+2025-06-03 03:40:44,638 - INFO - Processing item at index: 41
+2025-06-03 03:40:44,638 - DEBUG - Loading image from: artifacts/raw\Images\136.jpeg
+2025-06-03 03:40:44,639 - DEBUG - Loading label from: artifacts/raw\Labels\136.txt
+2025-06-03 03:40:44,639 - INFO - Successfully processed item 41
+2025-06-03 03:40:44,639 - INFO - Processing item at index: 301
+2025-06-03 03:40:44,639 - DEBUG - Loading image from: artifacts/raw\Images\70.jpeg
+2025-06-03 03:40:44,640 - DEBUG - Loading label from: artifacts/raw\Labels\70.txt
+2025-06-03 03:40:44,640 - INFO - Successfully processed item 301
+2025-06-03 03:40:44,640 - INFO - Processing item at index: 200
+2025-06-03 03:40:44,641 - DEBUG - Loading image from: artifacts/raw\Images\28.jpeg
+2025-06-03 03:40:44,641 - DEBUG - Loading label from: artifacts/raw\Labels\28.txt
+2025-06-03 03:40:44,641 - INFO - Successfully processed item 200
+2025-06-03 03:40:45,375 - DEBUG - Step [65/67] - Loss: 0.1972
+2025-06-03 03:40:45,376 - INFO - Processing item at index: 106
+2025-06-03 03:40:45,376 - DEBUG - Loading image from: artifacts/raw\Images\195.jpeg
+2025-06-03 03:40:45,376 - DEBUG - Loading label from: artifacts/raw\Labels\195.txt
+2025-06-03 03:40:45,377 - INFO - Successfully processed item 106
+2025-06-03 03:40:45,377 - INFO - Processing item at index: 72
+2025-06-03 03:40:45,377 - DEBUG - Loading image from: artifacts/raw\Images\164.jpeg
+2025-06-03 03:40:45,377 - DEBUG - Loading label from: artifacts/raw\Labels\164.txt
+2025-06-03 03:40:45,378 - INFO - Successfully processed item 72
+2025-06-03 03:40:45,378 - INFO - Processing item at index: 93
+2025-06-03 03:40:45,378 - DEBUG - Loading image from: artifacts/raw\Images\183.jpeg
+2025-06-03 03:40:45,378 - DEBUG - Loading label from: artifacts/raw\Labels\183.txt
+2025-06-03 03:40:45,379 - INFO - Successfully processed item 93
+2025-06-03 03:40:45,379 - INFO - Processing item at index: 62
+2025-06-03 03:40:45,379 - DEBUG - Loading image from: artifacts/raw\Images\155.jpeg
+2025-06-03 03:40:45,379 - DEBUG - Loading label from: artifacts/raw\Labels\155.txt
+2025-06-03 03:40:45,379 - INFO - Successfully processed item 62
+2025-06-03 03:40:46,113 - DEBUG - Step [66/67] - Loss: 0.1334
+2025-06-03 03:40:46,113 - INFO - Processing item at index: 28
+2025-06-03 03:40:46,114 - DEBUG - Loading image from: artifacts/raw\Images\124.jpeg
+2025-06-03 03:40:46,114 - DEBUG - Loading label from: artifacts/raw\Labels\124.txt
+2025-06-03 03:40:46,115 - INFO - Successfully processed item 28
+2025-06-03 03:40:46,115 - INFO - Processing item at index: 252
+2025-06-03 03:40:46,115 - DEBUG - Loading image from: artifacts/raw\Images\326.jpeg
+2025-06-03 03:40:46,116 - DEBUG - Loading label from: artifacts/raw\Labels\326.txt
+2025-06-03 03:40:46,116 - INFO - Successfully processed item 252
+2025-06-03 03:40:46,503 - DEBUG - Step [67/67] - Loss: 0.2131
+2025-06-03 03:40:46,503 - INFO - Epoch 1 - Avg Training Loss: 0.2398
+2025-06-03 03:40:46,504 - INFO - Processing item at index: 269
+2025-06-03 03:40:46,504 - DEBUG - Loading image from: artifacts/raw\Images\41.jpeg
+2025-06-03 03:40:46,505 - DEBUG - Loading label from: artifacts/raw\Labels\41.txt
+2025-06-03 03:40:46,505 - INFO - Successfully processed item 269
+2025-06-03 03:40:46,506 - INFO - Processing item at index: 16
+2025-06-03 03:40:46,506 - DEBUG - Loading image from: artifacts/raw\Images\113.jpeg
+2025-06-03 03:40:46,506 - DEBUG - Loading label from: artifacts/raw\Labels\113.txt
+2025-06-03 03:40:46,506 - INFO - Successfully processed item 16
+2025-06-03 03:40:46,506 - INFO - Processing item at index: 105
+2025-06-03 03:40:46,506 - DEBUG - Loading image from: artifacts/raw\Images\194.jpeg
+2025-06-03 03:40:46,507 - DEBUG - Loading label from: artifacts/raw\Labels\194.txt
+2025-06-03 03:40:46,507 - INFO - Successfully processed item 105
+2025-06-03 03:40:46,507 - INFO - Processing item at index: 225
+2025-06-03 03:40:46,507 - DEBUG - Loading image from: artifacts/raw\Images\301.jpeg
+2025-06-03 03:40:46,508 - DEBUG - Loading label from: artifacts/raw\Labels\301.txt
+2025-06-03 03:40:46,508 - INFO - Successfully processed item 225
+2025-06-03 03:40:46,844 - ERROR - Failed during training
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 117, in train
+    total_val_loss += val_loss.item()
+                      ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'item'

@@ -1,0 +1,8 @@
+/artifacts/
+/tensorboard_logs/
+*.pth
+/Guns_Detection.egg-info/
+/.dvc/
+.dvcignore
+
+Guns_Detection
