@@ -159,7 +159,7 @@ if __name__ == "__main__":
         model_class=FasetRCNNModel,
         num_classes=2,
         learning_rate=0.0001,
-        epochs=10,
+        epochs=25,
         dataset_path=r'artifacts/raw',
         device=device
     )

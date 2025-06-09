@@ -10,3 +10,5 @@ matplotlib==3.10.3
 albumentations==2.0.8
 tensorboard==2.19.0
 dvc==3.60.0
+fastapi[all]==0.115.12
+uvicorn==0.34.3

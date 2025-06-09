@@ -23,11 +23,11 @@ stages:
       nfiles: 666
     - path: src/model_training.py
       hash: md5
-      md5: 7ba9258af54a84cde92da2712dd3c1ec
+      md5: 5626111b9af665a797b57080a3f1474d
       size: 6985
     outs:
     - path: artifacts/models/
       hash: md5
-      md5: 585f564151902e1e0cae11adb51d7d8f.dir
-      size: 1657307051
-      nfiles: 10
+      md5: b463606a3c2d8e43786d2586409b4822.dir
+      size: 4143271691
+      nfiles: 25
