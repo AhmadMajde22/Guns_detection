@@ -1,0 +1,240 @@
+2025-06-09 02:38:53,799 - INFO - Created The artifacts\raw
+2025-06-09 02:38:54,214 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:38:54,214 - INFO - Images folder does't exist
+2025-06-09 02:38:54,214 - INFO - Labels folder does't exist
+2025-06-09 02:39:56,553 - INFO - Created The artifacts\raw
+2025-06-09 02:39:56,976 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:39:56,977 - INFO - Images folder does't exist
+2025-06-09 02:39:56,977 - INFO - Labels folder does't exist
+2025-06-09 02:40:19,846 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:40:19,847 - ERROR - Error While Extracting...
+2025-06-09 02:40:19,847 - ERROR - Error While Downloading the dataset...
+2025-06-09 02:40:19,847 - ERROR - Error While DataIngestion Pipeline...
+2025-06-09 02:40:52,429 - INFO - Created The artifacts\raw
+2025-06-09 02:40:52,816 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:40:54,461 - INFO - Images Moved Successfully ..
+2025-06-09 02:40:56,240 - INFO - Labels Moved Successfully ..
+2025-06-09 02:42:36,482 - INFO - Using device: cpu
+2025-06-09 02:42:36,484 - INFO - Initializing model with 2 classes on cpu
+2025-06-09 02:42:36,861 - INFO - Model Architecture Intialized...
+2025-06-09 02:42:36,862 - INFO - Model successfully moved to device
+2025-06-09 02:42:36,862 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-09 02:42:36,862 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-09 02:42:36,862 - ERROR - Images directory not found: artifacts/raw\Images
+2025-06-09 02:42:36,862 - ERROR - Failed to initialize dataset: Images directory not found: artifacts/raw\Images
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+2025-06-09 02:42:36,862 - ERROR - Error during dataset splitting
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 56, in split_dataset
+    dataset = GunDataset(self.dataset_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 33, in __init__
+    raise CustomException("Dataset initialization failed", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py , line 22 : Dataset initialization failed
+2025-06-09 02:42:36,862 - ERROR - Failed during training
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 56, in split_dataset
+    dataset = GunDataset(self.dataset_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 33, in __init__
+    raise CustomException("Dataset initialization failed", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py , line 22 : Dataset initialization failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 75, in train
+    train_loader, val_loader = self.split_dataset()
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 71, in split_dataset
+    raise CustomException("Error while splitting data.", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py , line 56 : Error while splitting data.
+2025-06-09 02:43:10,170 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:43:10,170 - ERROR - Error While Extracting...
+2025-06-09 02:43:10,170 - ERROR - Error While Downloading the dataset...
+2025-06-09 02:43:10,170 - ERROR - Error While DataIngestion Pipeline...
+2025-06-09 02:43:50,048 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:43:50,048 - ERROR - Error While Extracting...
+2025-06-09 02:43:50,048 - ERROR - Error While Downloading the dataset...
+2025-06-09 02:43:50,048 - ERROR - Error While DataIngestion Pipeline...
+2025-06-09 02:44:16,843 - INFO - Using device: cpu
+2025-06-09 02:44:16,845 - INFO - Initializing model with 2 classes on cpu
+2025-06-09 02:44:17,194 - INFO - Model Architecture Intialized...
+2025-06-09 02:44:17,195 - INFO - Model successfully moved to device
+2025-06-09 02:44:17,195 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-09 02:44:17,195 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-09 02:44:17,195 - ERROR - Images directory not found: artifacts/raw\Images
+2025-06-09 02:44:17,195 - ERROR - Failed to initialize dataset: Images directory not found: artifacts/raw\Images
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+2025-06-09 02:44:17,196 - ERROR - Error during dataset splitting
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 56, in split_dataset
+    dataset = GunDataset(self.dataset_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 33, in __init__
+    raise CustomException("Dataset initialization failed", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py , line 22 : Dataset initialization failed
+2025-06-09 02:44:17,196 - ERROR - Failed during training
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 22, in __init__
+    raise FileNotFoundError(f"Images directory not found: {self.images_path}")
+FileNotFoundError: Images directory not found: artifacts/raw\Images
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 56, in split_dataset
+    dataset = GunDataset(self.dataset_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py", line 33, in __init__
+    raise CustomException("Dataset initialization failed", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\data_processing.py , line 22 : Dataset initialization failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 75, in train
+    train_loader, val_loader = self.split_dataset()
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py", line 71, in split_dataset
+    raise CustomException("Error while splitting data.", e)
+src.custome_exception.CustomException: Error in E:\CODES\MLOps_Udemy\Section_4_Guns_object_detection\Content\src\model_training.py , line 56 : Error while splitting data.
+2025-06-09 02:45:27,923 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:45:27,924 - ERROR - Error While Extracting...
+2025-06-09 02:45:27,924 - ERROR - Error While Downloading the dataset...
+2025-06-09 02:45:27,924 - ERROR - Error While DataIngestion Pipeline...
+2025-06-09 02:46:05,189 - INFO - Created The artifacts\raw
+2025-06-09 02:46:07,692 - INFO - Downloaded the data from C:\Users\PC\.cache\kagglehub\datasets\issaisasank\guns-object-detection\versions\1
+2025-06-09 02:46:08,905 - INFO - Images Moved Successfully ..
+2025-06-09 02:46:09,996 - INFO - Labels Moved Successfully ..
+2025-06-09 02:48:22,534 - INFO - Using device: cpu
+2025-06-09 02:48:22,535 - INFO - Initializing model with 2 classes on cpu
+2025-06-09 02:48:22,861 - INFO - Model Architecture Intialized...
+2025-06-09 02:48:22,863 - INFO - Model successfully moved to device
+2025-06-09 02:48:22,863 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-09 02:48:22,863 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-09 02:48:22,863 - INFO - Successfully initialized dataset with 333 images
+2025-06-09 02:48:22,863 - INFO - Total dataset size: 333
+2025-06-09 02:48:22,863 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-09 02:48:22,865 - INFO - Dataset split successfully
+2025-06-09 02:48:22,865 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-09 02:49:18,792 - INFO - Using device: cpu
+2025-06-09 02:49:18,795 - INFO - Initializing model with 2 classes on cpu
+2025-06-09 02:49:19,147 - INFO - Model Architecture Intialized...
+2025-06-09 02:49:19,148 - INFO - Model successfully moved to device
+2025-06-09 02:49:19,148 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-09 02:49:19,148 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-09 02:49:19,148 - INFO - Successfully initialized dataset with 333 images
+2025-06-09 02:49:19,149 - INFO - Total dataset size: 333
+2025-06-09 02:49:19,149 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-09 02:49:19,149 - INFO - Dataset split successfully
+2025-06-09 02:49:19,149 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-09 02:56:21,911 - INFO - Using device: cuda
+2025-06-09 02:56:21,911 - INFO - Initializing model with 2 classes on cuda
+2025-06-09 02:56:22,424 - INFO - Model Architecture Intialized...
+2025-06-09 02:56:22,424 - INFO - Model successfully moved to device
+2025-06-09 02:56:22,426 - INFO - Optimizer initialized with learning rate: 0.0001
+2025-06-09 02:56:22,426 - INFO - Initializing GunDataset with root directory: artifacts/raw
+2025-06-09 02:56:22,426 - INFO - Successfully initialized dataset with 333 images
+2025-06-09 02:56:22,426 - INFO - Total dataset size: 333
+2025-06-09 02:56:22,426 - INFO - Splitting dataset into 266 training and 67 validation samples
+2025-06-09 02:56:22,426 - INFO - Dataset split successfully
+2025-06-09 02:56:22,426 - INFO - 
+===== Starting Epoch 1/10 =====
+2025-06-09 02:58:01,961 - INFO - Epoch 1 - Avg Training Loss: 0.2588
+2025-06-09 02:58:09,192 - INFO - Epoch 1 - Avg Validation Loss: 0.2129
+2025-06-09 02:58:09,563 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch1.pth
+2025-06-09 02:58:09,563 - INFO - Epoch 1 completed in 107.14 seconds
+
+2025-06-09 02:58:09,563 - INFO - 
+===== Starting Epoch 2/10 =====
+2025-06-09 02:59:38,941 - INFO - Epoch 2 - Avg Training Loss: 0.2112
+2025-06-09 02:59:45,808 - INFO - Epoch 2 - Avg Validation Loss: 0.1893
+2025-06-09 02:59:46,202 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch2.pth
+2025-06-09 02:59:46,202 - INFO - Epoch 2 completed in 96.64 seconds
+
+2025-06-09 02:59:46,202 - INFO - 
+===== Starting Epoch 3/10 =====
+2025-06-09 03:01:20,123 - INFO - Epoch 3 - Avg Training Loss: 0.1697
+2025-06-09 03:01:27,044 - INFO - Epoch 3 - Avg Validation Loss: 0.1805
+2025-06-09 03:01:27,389 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch3.pth
+2025-06-09 03:01:27,389 - INFO - Epoch 3 completed in 101.19 seconds
+
+2025-06-09 03:01:27,389 - INFO - 
+===== Starting Epoch 4/10 =====
+2025-06-09 03:02:58,127 - INFO - Epoch 4 - Avg Training Loss: 0.1458
+2025-06-09 03:03:05,056 - INFO - Epoch 4 - Avg Validation Loss: 0.1821
+2025-06-09 03:03:05,421 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch4.pth
+2025-06-09 03:03:05,421 - INFO - Epoch 4 completed in 98.03 seconds
+
+2025-06-09 03:03:05,421 - INFO - 
+===== Starting Epoch 5/10 =====
+2025-06-09 03:04:33,813 - INFO - Epoch 5 - Avg Training Loss: 0.1202
+2025-06-09 03:04:40,812 - INFO - Epoch 5 - Avg Validation Loss: 0.1866
+2025-06-09 03:04:41,193 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch5.pth
+2025-06-09 03:04:41,193 - INFO - Epoch 5 completed in 95.77 seconds
+
+2025-06-09 03:04:41,193 - INFO - 
+===== Starting Epoch 6/10 =====
+2025-06-09 03:06:10,100 - INFO - Epoch 6 - Avg Training Loss: 0.1126
+2025-06-09 03:06:17,083 - INFO - Epoch 6 - Avg Validation Loss: 0.1776
+2025-06-09 03:06:17,480 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch6.pth
+2025-06-09 03:06:17,480 - INFO - Epoch 6 completed in 96.29 seconds
+
+2025-06-09 03:06:17,480 - INFO - 
+===== Starting Epoch 7/10 =====
+2025-06-09 03:07:49,965 - INFO - Epoch 7 - Avg Training Loss: 0.0936
+2025-06-09 03:07:56,925 - INFO - Epoch 7 - Avg Validation Loss: 0.1611
+2025-06-09 03:07:57,269 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch7.pth
+2025-06-09 03:07:57,269 - INFO - Epoch 7 completed in 99.79 seconds
+
+2025-06-09 03:07:57,269 - INFO - 
+===== Starting Epoch 8/10 =====
+2025-06-09 03:09:21,261 - INFO - Epoch 8 - Avg Training Loss: 0.0827
+2025-06-09 03:09:28,541 - INFO - Epoch 8 - Avg Validation Loss: 0.1694
+2025-06-09 03:09:28,927 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch8.pth
+2025-06-09 03:09:28,927 - INFO - Epoch 8 completed in 91.66 seconds
+
+2025-06-09 03:09:28,927 - INFO - 
+===== Starting Epoch 9/10 =====
+2025-06-09 03:11:03,437 - INFO - Epoch 9 - Avg Training Loss: 0.0785
+2025-06-09 03:11:10,937 - INFO - Epoch 9 - Avg Validation Loss: 0.1732
+2025-06-09 03:11:11,301 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch9.pth
+2025-06-09 03:11:11,301 - INFO - Epoch 9 completed in 102.37 seconds
+
+2025-06-09 03:11:11,301 - INFO - 
+===== Starting Epoch 10/10 =====
+2025-06-09 03:12:47,400 - INFO - Epoch 10 - Avg Training Loss: 0.0830
+2025-06-09 03:12:54,785 - INFO - Epoch 10 - Avg Validation Loss: 0.1648
+2025-06-09 03:12:55,172 - INFO - Model checkpoint saved to: artifacts/models\fasterrcnn_epoch10.pth
+2025-06-09 03:12:55,172 - INFO - Epoch 10 completed in 103.87 seconds
+

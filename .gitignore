@@ -4,5 +4,5 @@
 /Guns_Detection.egg-info/
 /.dvc/
 .dvcignore
-
+DVC_BUCKET
 Guns_Detection

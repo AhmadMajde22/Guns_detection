@@ -28,6 +28,6 @@ stages:
     outs:
     - path: artifacts/models/
       hash: md5
-      md5: c78c9cc68d317e89de0eada12b052aaa.dir
+      md5: 585f564151902e1e0cae11adb51d7d8f.dir
       size: 1657307051
       nfiles: 10
