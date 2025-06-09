@@ -6,3 +6,4 @@
 .dvcignore
 DVC_BUCKET
 Guns_Detection
+__pycache__
